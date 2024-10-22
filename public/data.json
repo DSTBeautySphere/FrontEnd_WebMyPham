@@ -1,0 +1,507 @@
+{
+    "dong_san_pham": [
+        {
+            "ma_dong_san_pham": 1,
+            "ten_dong_san_pham": "Trang Điểm",
+            "mo_ta": "Dòng sản phẩm trang điểm bao gồm các sản phẩm giúp làm đẹp và cải thiện diện mạo của khuôn mặt. Chúng được thiết kế để làm nổi bật các đặc điểm tự nhiên, che đi các khuyết điểm, và tạo phong cách cá nhân",
+            "created_at": "2024-10-15T00:40:21.000000Z",
+            "updated_at": "2024-10-20T21:20:48.000000Z",
+            "loai_san_pham": [
+                {
+                    "ma_loai_san_pham": 1,
+                    "ma_dong_san_pham": 1,
+                    "ten_loai_san_pham": "Trang Điểm Mặt",
+                    "mo_ta": "Các sản phẩm trang điểm mặt bao gồm phấn nền, kem che khuyết điểm, phấn phủ, và tạo khối. Chúng giúp làm đều màu da, che đi các khuyết điểm như mụn, vết thâm, và mang lại vẻ ngoài mịn màng, tự nhiên cho làn da. Những sản phẩm này thường có nhiều loại phù hợp với từng loại da, từ da khô đến da dầu, giúp tạo lớp nền hoàn hảo.",
+                    "created_at": "2024-10-15T00:40:21.000000Z",
+                    "updated_at": "2024-10-20T21:36:29.000000Z",
+                    "san_pham": [
+                        {
+                            "ma_san_pham": 6,
+                            "ma_loai_san_pham": 1,
+                            "ten_san_pham": "Son môi",
+                            "mau_sac": "Đỏ",
+                            "tinh_trang": "hahaha",
+                            "gia_ban": "200000.00",
+                            "mo_ta": "Son môi màu đỏ, không chứa chì",
+                            "created_at": "2024-10-16T14:54:12.000000Z",
+                            "updated_at": "2024-10-16T14:54:12.000000Z",
+                            "nha_cung_cap": {
+                                "ma_nha_cung_cap": 1,
+                                "ten_nha_cung_cap": "Công ty A",
+                                "dia_chi": "Địa chỉ A",
+                                "so_dien_thoai": "0123456789",
+                                "email": "contact@congtyA.com",
+                                "created_at": "2024-10-15T00:40:21.000000Z",
+                                "updated_at": "2024-10-15T00:40:21.000000Z"
+                            },
+                            "khuyen_mai_san_pham": [],
+                            "anh_san_pham": []
+                        },
+                        {
+                            "ma_san_pham": 10,
+                            "ma_loai_san_pham": 1,
+                            "ten_san_pham": "Son môi",
+                            "mau_sac": "Đỏ",
+                            "tinh_trang": "hahaha",
+                            "gia_ban": "200000.00",
+                            "mo_ta": "Son môi màu đỏ, không chứa chì",
+                            "created_at": "2024-10-20T03:15:28.000000Z",
+                            "updated_at": "2024-10-20T03:15:28.000000Z",
+                            "nha_cung_cap": {
+                                "ma_nha_cung_cap": 1,
+                                "ten_nha_cung_cap": "Công ty A",
+                                "dia_chi": "Địa chỉ A",
+                                "so_dien_thoai": "0123456789",
+                                "email": "contact@congtyA.com",
+                                "created_at": "2024-10-15T00:40:21.000000Z",
+                                "updated_at": "2024-10-15T00:40:21.000000Z"
+                            },
+                            "khuyen_mai_san_pham": [],
+                            "anh_san_pham": []
+                        },
+                        {
+                            "ma_san_pham": 11,
+                            "ma_loai_san_pham": 1,
+                            "ten_san_pham": "Son môi",
+                            "mau_sac": "Đỏ",
+                            "tinh_trang": "hahaha",
+                            "gia_ban": "200000.00",
+                            "mo_ta": "Son môi màu đỏ, không chứa chì",
+                            "created_at": "2024-10-20T03:15:29.000000Z",
+                            "updated_at": "2024-10-20T03:15:29.000000Z",
+                            "nha_cung_cap": {
+                                "ma_nha_cung_cap": 1,
+                                "ten_nha_cung_cap": "Công ty A",
+                                "dia_chi": "Địa chỉ A",
+                                "so_dien_thoai": "0123456789",
+                                "email": "contact@congtyA.com",
+                                "created_at": "2024-10-15T00:40:21.000000Z",
+                                "updated_at": "2024-10-15T00:40:21.000000Z"
+                            },
+                            "khuyen_mai_san_pham": [],
+                            "anh_san_pham": []
+                        }
+                    ]
+                },
+                {
+                    "ma_loai_san_pham": 2,
+                    "ma_dong_san_pham": 1,
+                    "ten_loai_san_pham": "Trang Điểm Môi",
+                    "mo_ta": "Dòng sản phẩm trang điểm môi bao gồm son môi, son dưỡng, và bút kẻ viền môi. Các sản phẩm này được thiết kế để mang lại màu sắc tươi sáng, tự nhiên hoặc quyến rũ cho đôi môi, đồng thời giữ cho môi mềm mại và căng mọng. Tùy vào nhu cầu, bạn có thể chọn từ son lì, son bóng hoặc son dưỡng có màu.",
+                    "created_at": "2024-10-15T00:40:21.000000Z",
+                    "updated_at": "2024-10-20T21:36:29.000000Z",
+                    "san_pham": [
+                        {
+                            "ma_san_pham": 1,
+                            "ma_loai_san_pham": 2,
+                            "ten_san_pham": "Sữa Rửa Mặt Phục Hồi Da Murad Essential-C Cleanser 200Ml",
+                            "mau_sac": "Đỏ",
+                            "tinh_trang": "Còn Hàng",
+                            "gia_ban": "1210000.00",
+                            "mo_ta": "Da thường xuyên tiếp xúc ánh nắng mặt trời, khói bụi và trang điểm. Nếu không làm sạch đúng cách sẽ dẫn đến tình trạng lão hóa, chảy xệ da nghiêm trọng. Để giải quyết vấn đề này, bác sĩ Murad đã ra mắt sữa rửa mặt không chứa chất tẩy rửa mạnh nhưng lại có công dụng làm sạch bề mặt da hiệu quả. Bên cạnh đó, sản phẩm được áp dụng công nghệ mùi hương giúp đánh thức mọi giác quan và mang lại làn da tươi tỉnh, tràn đầy sức sống.",
+                            "created_at": "2024-10-15T00:40:21.000000Z",
+                            "updated_at": "2024-10-20T15:39:23.000000Z",
+                            "nha_cung_cap": {
+                                "ma_nha_cung_cap": 1,
+                                "ten_nha_cung_cap": "Công ty A",
+                                "dia_chi": "Địa chỉ A",
+                                "so_dien_thoai": "0123456789",
+                                "email": "contact@congtyA.com",
+                                "created_at": "2024-10-15T00:40:21.000000Z",
+                                "updated_at": "2024-10-15T00:40:21.000000Z"
+                            },
+                            "khuyen_mai_san_pham": [
+                                {
+                                    "ma_khuyen_mai": 1,
+                                    "muc_giam_gia": "10.00",
+                                    "ngay_bat_dau": "2024-10-15",
+                                    "ngay_ket_thuc": "2024-10-25",
+                                    "dieu_kien_ap_dung": "Mua 2 tặng 1",
+                                    "created_at": "2024-10-15T00:40:21.000000Z",
+                                    "updated_at": "2024-10-15T00:40:21.000000Z"
+                                }
+                            ],
+                            "anh_san_pham": [
+                                {
+                                    "ma_anh_san_pham": 1,
+                                    "url_anh": "https://res.cloudinary.com/dmwzseqfw/image/upload/v1729013458/PJ_MYPHAM/SanPham/4de91d5e-60fd-4aa0-b889-4c70e9781b64_ckd3he.webp",
+                                    "la_anh_chinh": 1,
+                                    "created_at": "2024-10-16T01:03:55.000000Z",
+                                    "updated_at": "2024-10-16T01:03:55.000000Z"
+                                },
+                                {
+                                    "ma_anh_san_pham": 2,
+                                    "url_anh": "https://res.cloudinary.com/dmwzseqfw/image/upload/v1729013555/PJ_MYPHAM/SanPham/566953b4-8c37-4464-a034-24a2f007779e_oxtxaf.webp",
+                                    "la_anh_chinh": 0,
+                                    "created_at": "2024-10-16T01:03:55.000000Z",
+                                    "updated_at": "2024-10-16T01:03:55.000000Z"
+                                },
+                                {
+                                    "ma_anh_san_pham": 3,
+                                    "url_anh": "https://res.cloudinary.com/dmwzseqfw/image/upload/v1729013368/PJ_MYPHAM/SanPham/suaruamat1_kkzzrl.webp",
+                                    "la_anh_chinh": 0,
+                                    "created_at": "2024-10-16T01:03:55.000000Z",
+                                    "updated_at": "2024-10-16T01:03:55.000000Z"
+                                }
+                            ]
+                        },
+                        {
+                            "ma_san_pham": 3,
+                            "ma_loai_san_pham": 2,
+                            "ten_san_pham": "Son Thỏi Lì THE FACE SHOP Fmgt New Bold Velvet Lipstick 3.5g",
+                            "mau_sac": "Đỏ",
+                            "tinh_trang": "Còn Hàng",
+                            "gia_ban": "649000.00",
+                            "mo_ta": "Son thỏi nhung lì New Bold Velvet Lipstick có kết cấu hạt phấn siêu nhỏ, siêu mịn len lỏi làm đầy rãnh môi, tạo hiệu ứng đôi môi căng bóng, tràn đầy sức sống. Chất son mềm mại, tan chảy bao bọc trọn vẹn đôi môi biến một ngày bình thường của bạn trở nên đặc biệt hơn bao giờ hết.New Bold Velvet Lipstick được áp dụng công nghệ hiện đại, độc quyền không để lộ vân môi, chứa 8 loại dầu giàu vitamin E gồm hạt hướng dương, hạt bông, đậu đen, hạt rum, hạt lanh, trà xanh, dầu hạt mơ, hắc mai biển có công dụng bổ sung dưỡng chất, giảm thiểu khô, nứt nẻ trên môi.",
+                            "created_at": "2024-10-15T00:40:21.000000Z",
+                            "updated_at": "2024-10-20T15:30:04.000000Z",
+                            "nha_cung_cap": {
+                                "ma_nha_cung_cap": 1,
+                                "ten_nha_cung_cap": "Công ty A",
+                                "dia_chi": "Địa chỉ A",
+                                "so_dien_thoai": "0123456789",
+                                "email": "contact@congtyA.com",
+                                "created_at": "2024-10-15T00:40:21.000000Z",
+                                "updated_at": "2024-10-15T00:40:21.000000Z"
+                            },
+                            "khuyen_mai_san_pham": [
+                                {
+                                    "ma_khuyen_mai": 3,
+                                    "muc_giam_gia": "5.00",
+                                    "ngay_bat_dau": "2024-10-15",
+                                    "ngay_ket_thuc": "2024-10-20",
+                                    "dieu_kien_ap_dung": "Giảm giá cho đơn hàng trên 500.000",
+                                    "created_at": "2024-10-15T00:40:21.000000Z",
+                                    "updated_at": "2024-10-15T00:40:21.000000Z"
+                                }
+                            ],
+                            "anh_san_pham": [
+                                {
+                                    "ma_anh_san_pham": 7,
+                                    "url_anh": "https://res.cloudinary.com/dmwzseqfw/image/upload/v1729014769/PJ_MYPHAM/SanPham/ec82968b-50fc-4625-ae04-837ca98b03a4_fxmvgq.webp",
+                                    "la_anh_chinh": 1,
+                                    "created_at": "2024-10-16T01:03:55.000000Z",
+                                    "updated_at": "2024-10-16T01:03:55.000000Z"
+                                },
+                                {
+                                    "ma_anh_san_pham": 8,
+                                    "url_anh": "https://res.cloudinary.com/dmwzseqfw/image/upload/v1729014769/PJ_MYPHAM/SanPham/a5e9a241-1379-4e16-bc28-f389849c7cd7_yofz36.webp",
+                                    "la_anh_chinh": 0,
+                                    "created_at": "2024-10-16T01:03:55.000000Z",
+                                    "updated_at": "2024-10-16T01:03:55.000000Z"
+                                },
+                                {
+                                    "ma_anh_san_pham": 9,
+                                    "url_anh": "https://res.cloudinary.com/dmwzseqfw/image/upload/v1729014769/PJ_MYPHAM/SanPham/ec82968b-50fc-4625-ae04-837ca98b03a4_fxmvgq.webp",
+                                    "la_anh_chinh": 0,
+                                    "created_at": "2024-10-16T01:03:55.000000Z",
+                                    "updated_at": "2024-10-16T01:03:55.000000Z"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "ma_loai_san_pham": 3,
+                    "ma_dong_san_pham": 1,
+                    "ten_loai_san_pham": "Trang Điểm Mắt",
+                    "mo_ta": "Bao gồm phấn mắt, bút kẻ mắt, mascara, và các sản phẩm giúp làm nổi bật đôi mắt. Các sản phẩm trang điểm mắt có thể tạo nhiều phong cách khác nhau, từ tự nhiên, nhẹ nhàng đến sắc sảo, ấn tượng. Ngoài ra, còn có các sản phẩm dưỡng lông mi giúp tăng cường độ dài và độ dày của lông mi.",
+                    "created_at": "2024-10-15T00:40:21.000000Z",
+                    "updated_at": "2024-10-20T21:36:29.000000Z",
+                    "san_pham": []
+                }
+            ]
+        },
+        {
+            "ma_dong_san_pham": 2,
+            "ten_dong_san_pham": "Chăm Sóc Da",
+            "mo_ta": "Dòng sản phẩm chăm sóc da bao gồm các sản phẩm được thiết kế để nuôi dưỡng, bảo vệ và cải thiện sức khỏe của làn da. Mục tiêu của các sản phẩm này là giúp da duy trì độ ẩm, ngăn ngừa lão hóa, làm sạch và điều trị các vấn đề về da",
+            "created_at": "2024-10-15T00:40:21.000000Z",
+            "updated_at": "2024-10-20T21:22:13.000000Z",
+            "loai_san_pham": [
+                {
+                    "ma_loai_san_pham": 4,
+                    "ma_dong_san_pham": 2,
+                    "ten_loai_san_pham": "Dưỡng Da",
+                    "mo_ta": "Các sản phẩm dưỡng da bao gồm kem dưỡng ẩm, serum, tinh chất, và các loại dầu dưỡng giúp nuôi dưỡng làn da từ sâu bên trong. Chúng cung cấp độ ẩm, các dưỡng chất cần thiết, và cải thiện tình trạng da như làm sáng, chống lão hóa, hoặc tăng độ đàn hồi cho da. Sản phẩm dưỡng da thường được thiết kế để phù hợp với từng loại da như da khô, da dầu, hoặc da nhạy cảm.",
+                    "created_at": "2024-10-15T00:40:21.000000Z",
+                    "updated_at": "2024-10-20T21:42:36.000000Z",
+                    "san_pham": [
+                        {
+                            "ma_san_pham": 4,
+                            "ma_loai_san_pham": 4,
+                            "ten_san_pham": "Nước Cân Bằng Làm Trẻ Hóa Da AHC Youth Focus Toner 130Ml",
+                            "mau_sac": "Đỏ",
+                            "tinh_trang": "Còn Hàng",
+                            "gia_ban": "912000.00",
+                            "mo_ta": "Nằm trong dòng chống lão hóa da AHC Youth Focus, nước cân bằng được xem là bước đầu khai mở cho làn da, loại bỏ các rào cản làm tăng hiệu quả hấp thụ của da ở các bước dưỡng sau đó. AHC Youth Focus Toner sở hữu công thức dưỡng da nhẹ giúp thúc đẩy kết cấu da đồng nhất, làm mềm mịn và tươi trẻ làn da. Toner cấp nước tức thì, cải thiện lại hàng rào ẩm cho da giúp sửa chữa tình trạng da khô, thô sần, tối sạm trở nên mịn màng, tươi tắn hơn. Làn da của bạn sẽ cảm giác sạch sẽ, tươi mát và sẵn sàng cho bước chăm sóc tiếp theo. Thành phần retinal sẽ giúp làm tăng sinh collagen cho da, cải thiện sự gồ ghề, nếp gấp trên bề mặt da đồng thời hỗ trợ chống oxy hóa, ngăn ngừa mụn xuất hiện.",
+                            "created_at": "2024-10-15T00:40:21.000000Z",
+                            "updated_at": "2024-10-20T15:39:00.000000Z",
+                            "nha_cung_cap": {
+                                "ma_nha_cung_cap": 1,
+                                "ten_nha_cung_cap": "Công ty A",
+                                "dia_chi": "Địa chỉ A",
+                                "so_dien_thoai": "0123456789",
+                                "email": "contact@congtyA.com",
+                                "created_at": "2024-10-15T00:40:21.000000Z",
+                                "updated_at": "2024-10-15T00:40:21.000000Z"
+                            },
+                            "khuyen_mai_san_pham": [
+                                {
+                                    "ma_khuyen_mai": 4,
+                                    "muc_giam_gia": "20.00",
+                                    "ngay_bat_dau": "2024-10-15",
+                                    "ngay_ket_thuc": "2024-11-04",
+                                    "dieu_kien_ap_dung": "Khách hàng thân thiết",
+                                    "created_at": "2024-10-15T00:40:21.000000Z",
+                                    "updated_at": "2024-10-15T00:40:21.000000Z"
+                                }
+                            ],
+                            "anh_san_pham": [
+                                {
+                                    "ma_anh_san_pham": 10,
+                                    "url_anh": "https://res.cloudinary.com/dmwzseqfw/image/upload/v1729015060/PJ_MYPHAM/SanPham/b4430ea1-53d7-40e9-9686-ce2e86a1f5c8_xbfkoi.webp",
+                                    "la_anh_chinh": 1,
+                                    "created_at": "2024-10-16T01:03:55.000000Z",
+                                    "updated_at": "2024-10-16T01:03:55.000000Z"
+                                },
+                                {
+                                    "ma_anh_san_pham": 11,
+                                    "url_anh": "https://res.cloudinary.com/dmwzseqfw/image/upload/v1729015060/PJ_MYPHAM/SanPham/9b7e0a21-f378-4089-930d-021225f918a7_ec9by0.webp",
+                                    "la_anh_chinh": 0,
+                                    "created_at": "2024-10-16T01:03:55.000000Z",
+                                    "updated_at": "2024-10-16T01:03:55.000000Z"
+                                },
+                                {
+                                    "ma_anh_san_pham": 12,
+                                    "url_anh": "https://res.cloudinary.com/dmwzseqfw/image/upload/v1729015060/PJ_MYPHAM/SanPham/d970dc9d-57ce-429e-8d12-ba99508fd465_v2olvr.webp",
+                                    "la_anh_chinh": 0,
+                                    "created_at": "2024-10-16T01:03:55.000000Z",
+                                    "updated_at": "2024-10-16T01:03:55.000000Z"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "ma_loai_san_pham": 5,
+                    "ma_dong_san_pham": 2,
+                    "ten_loai_san_pham": "Làm Sạch",
+                    "mo_ta": "Dòng sản phẩm làm sạch bao gồm sữa rửa mặt, nước tẩy trang, tẩy tế bào chết, và sữa tắm. Những sản phẩm này giúp loại bỏ bụi bẩn, dầu thừa, và các tạp chất trên bề mặt da, đồng thời làm sạch sâu lỗ chân lông, ngăn ngừa mụn và các vấn đề về da. Làm sạch là bước đầu tiên và quan trọng nhất trong quy trình chăm sóc da hàng ngày.",
+                    "created_at": "2024-10-15T00:40:21.000000Z",
+                    "updated_at": "2024-10-20T21:42:36.000000Z",
+                    "san_pham": [
+                        {
+                            "ma_san_pham": 2,
+                            "ma_loai_san_pham": 5,
+                            "ten_san_pham": "Sữa Rửa Mặt Cho Da Dầu Mụn La Roche-Posay Effaclar Purifying Foaming Gel",
+                            "mau_sac": "Đỏ",
+                            "tinh_trang": "Còn Hàng",
+                            "gia_ban": "555000.00",
+                            "mo_ta": "EFFACLAR là dòng sản phẩm chăm sóc da nhờn mụn nổi tiếng tại Châu Âu, đem lại giải pháp trị mụn hoàn hảo, tác động lên mụn ở mọi giai đoạn nhằm mang lại hiệu quả chăm sóc da cao nhất. Loại bỏ bụi bẩn và bã nhờn trên da. Giảm khả năng xuất hiện của mụn đầu đen và kiểm soát độ bóng nhờn của da. Đem lại làn da sạch và tươi mát.",
+                            "created_at": "2024-10-15T00:40:21.000000Z",
+                            "updated_at": "2024-10-20T15:30:31.000000Z",
+                            "nha_cung_cap": {
+                                "ma_nha_cung_cap": 1,
+                                "ten_nha_cung_cap": "Công ty A",
+                                "dia_chi": "Địa chỉ A",
+                                "so_dien_thoai": "0123456789",
+                                "email": "contact@congtyA.com",
+                                "created_at": "2024-10-15T00:40:21.000000Z",
+                                "updated_at": "2024-10-15T00:40:21.000000Z"
+                            },
+                            "khuyen_mai_san_pham": [
+                                {
+                                    "ma_khuyen_mai": 2,
+                                    "muc_giam_gia": "15.00",
+                                    "ngay_bat_dau": "2024-10-15",
+                                    "ngay_ket_thuc": "2024-10-30",
+                                    "dieu_kien_ap_dung": "Giảm giá cho sinh viên",
+                                    "created_at": "2024-10-15T00:40:21.000000Z",
+                                    "updated_at": "2024-10-15T00:40:21.000000Z"
+                                }
+                            ],
+                            "anh_san_pham": [
+                                {
+                                    "ma_anh_san_pham": 4,
+                                    "url_anh": "https://res.cloudinary.com/dmwzseqfw/image/upload/v1729014417/PJ_MYPHAM/SanPham/097bda34-071e-484e-917d-aca8717c0ff8_ab8dmc.webp",
+                                    "la_anh_chinh": 1,
+                                    "created_at": "2024-10-16T01:03:55.000000Z",
+                                    "updated_at": "2024-10-16T01:03:55.000000Z"
+                                },
+                                {
+                                    "ma_anh_san_pham": 5,
+                                    "url_anh": "https://res.cloudinary.com/dmwzseqfw/image/upload/v1729014416/PJ_MYPHAM/SanPham/79dd6a38-4f8e-4d40-8601-07cfd026779c_icvauo.webp",
+                                    "la_anh_chinh": 0,
+                                    "created_at": "2024-10-16T01:03:55.000000Z",
+                                    "updated_at": "2024-10-16T01:03:55.000000Z"
+                                },
+                                {
+                                    "ma_anh_san_pham": 6,
+                                    "url_anh": "https://res.cloudinary.com/dmwzseqfw/image/upload/v1729014416/PJ_MYPHAM/SanPham/548f5e1a-8c87-4326-aca8-7c5b3b6d1d4a_omp1tt.webp",
+                                    "la_anh_chinh": 0,
+                                    "created_at": "2024-10-16T01:03:55.000000Z",
+                                    "updated_at": "2024-10-16T01:03:55.000000Z"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "ma_loai_san_pham": 6,
+                    "ma_dong_san_pham": 2,
+                    "ten_loai_san_pham": "Mặt Nạ",
+                    "mo_ta": "Sản phẩm mặt nạ được sử dụng để cung cấp dưỡng chất, cấp ẩm sâu, hoặc giải quyết các vấn đề cụ thể của da như mụn, thâm nám, hay nếp nhăn. Mặt nạ có nhiều dạng như mặt nạ giấy, mặt nạ đất sét, mặt nạ gel, hoặc mặt nạ ngủ. Chúng giúp thư giãn và phục hồi làn da sau một ngày dài, mang lại làn da sáng khỏe và tươi mới.",
+                    "created_at": "2024-10-20T21:43:14.000000Z",
+                    "updated_at": "2024-10-20T21:43:14.000000Z",
+                    "san_pham": [
+                        {
+                            "ma_san_pham": 5,
+                            "ma_loai_san_pham": 6,
+                            "ten_san_pham": "Combo 5 Mặt Nạ Giấy Dermatory Retinal Nâng Cơ, Dưỡng Da Săn Chắc (mix)",
+                            "mau_sac": "Đỏ",
+                            "tinh_trang": "Còn Hàng",
+                            "gia_ban": "538000.00",
+                            "mo_ta": "Mặt nạ hàng đầu thế giới",
+                            "created_at": "2024-10-15T00:40:21.000000Z",
+                            "updated_at": "2024-10-20T15:42:59.000000Z",
+                            "nha_cung_cap": {
+                                "ma_nha_cung_cap": 1,
+                                "ten_nha_cung_cap": "Công ty A",
+                                "dia_chi": "Địa chỉ A",
+                                "so_dien_thoai": "0123456789",
+                                "email": "contact@congtyA.com",
+                                "created_at": "2024-10-15T00:40:21.000000Z",
+                                "updated_at": "2024-10-15T00:40:21.000000Z"
+                            },
+                            "khuyen_mai_san_pham": [
+                                {
+                                    "ma_khuyen_mai": 5,
+                                    "muc_giam_gia": "25.00",
+                                    "ngay_bat_dau": "2024-10-15",
+                                    "ngay_ket_thuc": "2024-11-14",
+                                    "dieu_kien_ap_dung": "Giảm giá vào cuối tuần",
+                                    "created_at": "2024-10-15T00:40:21.000000Z",
+                                    "updated_at": "2024-10-15T00:40:21.000000Z"
+                                }
+                            ],
+                            "anh_san_pham": [
+                                {
+                                    "ma_anh_san_pham": 13,
+                                    "url_anh": "https://res.cloudinary.com/dmwzseqfw/image/upload/v1729015365/PJ_MYPHAM/SanPham/b558b9c3-ffb5-4ebb-b8ad-d489e9bd60e4_dsrdgx.webp",
+                                    "la_anh_chinh": 1,
+                                    "created_at": "2024-10-16T01:03:55.000000Z",
+                                    "updated_at": "2024-10-16T01:03:55.000000Z"
+                                },
+                                {
+                                    "ma_anh_san_pham": 14,
+                                    "url_anh": "https://res.cloudinary.com/dmwzseqfw/image/upload/v1729015364/PJ_MYPHAM/SanPham/e84be464-2bd6-459d-824b-8b1f6a085c6f_y1nqi5.webp",
+                                    "la_anh_chinh": 0,
+                                    "created_at": "2024-10-16T01:03:55.000000Z",
+                                    "updated_at": "2024-10-16T01:03:55.000000Z"
+                                },
+                                {
+                                    "ma_anh_san_pham": 15,
+                                    "url_anh": "https://res.cloudinary.com/dmwzseqfw/image/upload/v1729015364/PJ_MYPHAM/SanPham/d7c5b09d-1436-42a1-be71-5215f9e75ba4_x8ecqn.webp",
+                                    "la_anh_chinh": 0,
+                                    "created_at": "2024-10-16T01:03:55.000000Z",
+                                    "updated_at": "2024-10-16T01:03:55.000000Z"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "ma_dong_san_pham": 3,
+            "ten_dong_san_pham": "Chăm Sóc Cơ Thể",
+            "mo_ta": "Dòng sản phẩm chăm sóc cơ thể bao gồm các sản phẩm được thiết kế để duy trì và cải thiện sức khỏe cũng như vẻ ngoài của làn da trên toàn cơ thể. Các sản phẩm này không chỉ giúp làm sạch, dưỡng ẩm mà còn hỗ trợ trong việc làm mềm và nuôi dưỡng làn da, mang lại cảm giác thoải mái và tự tin",
+            "created_at": "2024-10-15T00:40:21.000000Z",
+            "updated_at": "2024-10-20T21:24:10.000000Z",
+            "loai_san_pham": [
+                {
+                    "ma_loai_san_pham": 7,
+                    "ma_dong_san_pham": 3,
+                    "ten_loai_san_pham": "Chăm Sóc Toàn Thân",
+                    "mo_ta": "Các sản phẩm chăm sóc toàn thân bao gồm sữa tắm, kem dưỡng thể, tẩy tế bào chết toàn thân, và các loại dầu dưỡng. Những sản phẩm này giúp làm sạch, dưỡng ẩm, và nuôi dưỡng làn da khắp cơ thể, mang lại cảm giác mềm mại, mịn màng. Ngoài ra, một số sản phẩm còn có khả năng làm săn chắc da hoặc giúp thư giãn cơ bắp sau khi tắm. Chăm sóc toàn thân là một phần quan trọng để duy trì làn da khỏe mạnh và tạo cảm giác thoải mái cho người dùng.",
+                    "created_at": "2024-10-20T21:49:48.000000Z",
+                    "updated_at": "2024-10-20T21:49:48.000000Z",
+                    "san_pham": []
+                },
+                {
+                    "ma_loai_san_pham": 8,
+                    "ma_dong_san_pham": 3,
+                    "ten_loai_san_pham": "Chăm Sóc Tóc",
+                    "mo_ta": "Dòng sản phẩm chăm sóc tóc bao gồm dầu gội, dầu xả, dầu dưỡng tóc, mặt nạ tóc, và các sản phẩm tạo kiểu. Những sản phẩm này giúp làm sạch da đầu, nuôi dưỡng tóc từ gốc đến ngọn, phục hồi tóc hư tổn, và giúp tóc luôn bóng mượt. Ngoài ra, các sản phẩm chăm sóc tóc còn có thể giải quyết những vấn đề cụ thể như gàu, rụng tóc, tóc khô xơ, hoặc tóc yếu. Sử dụng đúng sản phẩm phù hợp với loại tóc sẽ giúp duy trì mái tóc khỏe mạnh và đẹp tự nhiên.",
+                    "created_at": "2024-10-20T21:49:48.000000Z",
+                    "updated_at": "2024-10-20T21:49:48.000000Z",
+                    "san_pham": []
+                }
+            ]
+        },
+        {
+            "ma_dong_san_pham": 4,
+            "ten_dong_san_pham": "Sản Phẩm Cao Cấp",
+            "mo_ta": "Dòng sản phẩm cao cấp bao gồm các sản phẩm chăm sóc sức khỏe và làm đẹp được thiết kế với tiêu chuẩn chất lượng cao, thành phần tinh chọn và công nghệ sản xuất tiên tiến. Những sản phẩm này hướng đến việc cung cấp trải nghiệm vượt trội cho người dùng, mang lại hiệu quả rõ rệt và thể hiện sự sang trọng, đẳng cấp.",
+            "created_at": "2024-10-15T00:40:21.000000Z",
+            "updated_at": "2024-10-20T21:25:49.000000Z",
+            "loai_san_pham": [
+                {
+                    "ma_loai_san_pham": 9,
+                    "ma_dong_san_pham": 4,
+                    "ten_loai_san_pham": "WHOO",
+                    "mo_ta": "WHOO là thương hiệu nổi tiếng với các sản phẩm chăm sóc da và cơ thể cao cấp, được lấy cảm hứng từ các phương pháp làm đẹp của hoàng gia. Các sản phẩm chăm sóc toàn thân của WHOO bao gồm sữa tắm, kem dưỡng thể, tẩy tế bào chết, và dầu dưỡng đặc biệt. Sản phẩm không chỉ giúp làm sạch, dưỡng ẩm, và nuôi dưỡng làn da mà còn sử dụng các thành phần quý hiếm như nhân sâm, ngọc trai, và các loại thảo dược hoàng gia, mang lại làn da mềm mại, mịn màng và săn chắc. WHOO kết hợp bí quyết cổ truyền và công nghệ hiện đại để mang lại cảm giác sang trọng và đẳng cấp cho người sử dụng.",
+                    "created_at": "2024-10-20T21:56:11.000000Z",
+                    "updated_at": "2024-10-20T21:56:11.000000Z",
+                    "san_pham": []
+                },
+                {
+                    "ma_loai_san_pham": 10,
+                    "ma_dong_san_pham": 4,
+                    "ten_loai_san_pham": "CNP",
+                    "mo_ta": "CNP là thương hiệu dược mỹ phẩm cao cấp, nổi bật với các sản phẩm chăm sóc tóc và da đầu chất lượng cao. Các sản phẩm của CNP bao gồm dầu gội, dầu xả, dầu dưỡng tóc, và mặt nạ tóc, được phát triển bởi các chuyên gia da liễu nhằm đảm bảo an toàn và hiệu quả cho tóc và da đầu. Thành phần chứa các dưỡng chất và tinh chất thiên nhiên giúp phục hồi tóc hư tổn, dưỡng ẩm sâu và ngăn ngừa các vấn đề như gàu, tóc rụng, hay khô xơ. CNP không chỉ mang lại mái tóc bóng mượt và chắc khỏe mà còn tạo nên trải nghiệm chăm sóc tóc cao cấp, đáp ứng nhu cầu của người dùng tinh tế.",
+                    "created_at": "2024-10-20T21:56:11.000000Z",
+                    "updated_at": "2024-10-20T21:56:11.000000Z",
+                    "san_pham": []
+                }
+            ]
+        },
+        {
+            "ma_dong_san_pham": 5,
+            "ten_dong_san_pham": "Thương Hiệu",
+            "mo_ta": "Thương Hiệu mang đến một bộ sưu tập sản phẩm chất lượng cao, được thiết kế đặc biệt để đáp ứng nhu cầu chăm sóc sắc đẹp và sức khỏe của người tiêu dùng. Với cam kết về sự an toàn và hiệu quả",
+            "created_at": "2024-10-15T00:40:21.000000Z",
+            "updated_at": "2024-10-20T21:59:51.000000Z",
+            "loai_san_pham": [
+                {
+                    "ma_loai_san_pham": 11,
+                    "ma_dong_san_pham": 5,
+                    "ten_loai_san_pham": "DHC",
+                    "mo_ta": "DHC là thương hiệu nổi tiếng với các sản phẩm chăm sóc da và cơ thể cao cấp, nổi bật với công thức chiết xuất tự nhiên và thành phần dưỡng chất phong phú.",
+                    "created_at": "2024-10-20T22:05:34.000000Z",
+                    "updated_at": "2024-10-20T22:05:34.000000Z",
+                    "san_pham": []
+                },
+                {
+                    "ma_loai_san_pham": 12,
+                    "ma_dong_san_pham": 5,
+                    "ten_loai_san_pham": "Clio",
+                    "mo_ta": "Clio là thương hiệu dược mỹ phẩm cao cấp nổi bật với dòng sản phẩm trang điểm và chăm sóc da chất lượng cao. Được phát triển bởi các chuyên gia da liễu, Clio chú trọng đến sự an toàn và hiệu quả cho người sử dụng.",
+                    "created_at": "2024-10-20T22:05:34.000000Z",
+                    "updated_at": "2024-10-20T22:05:34.000000Z",
+                    "san_pham": []
+                },
+                {
+                    "ma_loai_san_pham": 13,
+                    "ma_dong_san_pham": 5,
+                    "ten_loai_san_pham": "Goodal",
+                    "mo_ta": "Goodal là thương hiệu chăm sóc da cao cấp, nổi tiếng với việc sử dụng các thành phần thiên nhiên trong sản phẩm của mình. Goodal chú trọng đến sức khỏe và vẻ đẹp tự nhiên của làn da.",
+                    "created_at": "2024-10-20T22:05:34.000000Z",
+                    "updated_at": "2024-10-20T22:05:34.000000Z",
+                    "san_pham": []
+                }
+            ]
+        }
+    ]
+}
