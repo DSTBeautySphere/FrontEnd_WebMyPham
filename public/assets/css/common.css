@@ -2,15 +2,15 @@
 
 :root {
     --default-cl: #9e5bab;
-    --black-cl-1: #000000;
+    --black-cl-1: #444444;
     --black-cl-2: #222222;
     --white-cl-1: #fff;
     --white-cl-2: rgba(255, 255, 255, 0.7);
     --white-cl-3: #f8f7fd;
     --orange-cl: #d26e4b;
-    --hight-header-top: 80px;
+    --hight-header-top: 85px;
     --hight-header-nav: 50px;
-    --hight-header: calc(var(--hight-header-nav) + var(--hight-header-top))
+    /* --hight-header: calc(var(--hight-header-nav) + var(--hight-header-top)) */
 }
 
 * {
@@ -20,7 +20,6 @@
 html {
     font-family: 'Roboto Slab', serif;
     /* font-family: 'Roboto', sans-serif; */
-    font-size: 62.5%;
 }
 
 
@@ -285,7 +284,7 @@ input[type=checkbox]:checked:after {
     right: 0;
     left: 0;
     z-index: 9;
-    background-color: black;
+    background-color: var(--white-cl-1);
 }
 
 .header__top {
@@ -357,8 +356,9 @@ input[type=checkbox]:checked:after {
     margin-right: 16px;
     cursor: pointer;
     position: relative;
-    font-size: 1.6rem;
+    font-size: 1rem;
     color: var(--black-cl-1);
+    text-decoration: none;
 }
 
 .header .name-user {
@@ -507,7 +507,7 @@ textarea.form-control {
     outline: none;
     background: none;
     padding: 0 16px;
-    font-size: 1.6rem;
+    font-size: 1.2rem;
     flex-grow: 1;
     color: var(--black-cl-2);
 }
@@ -689,39 +689,55 @@ textarea.form-control {
 
 
 /* ----Menu---- */
-
 .header__nav {
     height: var(--hight-header-nav);
     background-color: var(--black-cl-1);
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    width: 100%;
+    transition: background-color 0.3s; /* Thêm chuyển tiếp cho màu nền */
+    transition: background-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out; /* Thêm hiệu ứng mượt mà */
+
 }
 
+.header__nav.fixed {
+    position: fixed;  /* Làm cho menu cố định */
+    top: 0;           /* Căn chỉnh nó ở phía trên */
+    left: 0;          /* Căn chỉnh nó ở phía trái */
+    right: 0;         /* Căn chỉnh nó ở phía phải */
+    background-color: rgb(28, 12, 12); /* Đổi màu nền thành xám */
+    z-index: 1000;   /* Đảm bảo nó nằm trên các phần tử khác */
+}
 .header__nav {
     display: flex;
     justify-content: center;
     position: relative;
-
+    
 }
 
 .header__nav-list {
     display: flex;
     align-items: center;
-    background-color: var(--black-cl-1);
-
+    margin-top: 15px;
 }
 
 .header__nav-item {
     border-right: 1px solid rgba(255, 255, 255, 0.2);
+    
+        text-decoration: none;
+    
+    
 }
 
 .header__nav-link {
     display: block;
-    font-size: 1.5rem;
+    font-size: 0.8rem;
     text-transform: uppercase;
     color: var(--white-cl-1);
     padding: 0 44px;
-    line-height: 5rem;
+    line-height: 3rem;
     text-shadow: 0 0 2px rgba(0, 0, 0, 0.3);
+    text-decoration: none;
+
 }
 
 .header__nav-link:hover {
@@ -749,26 +765,23 @@ textarea.form-control {
 }
 
 .sub-nav {
-    display: grid;
-    grid-template-columns: repeat(5, 1fr); /* Chia thành 4 cột */
-    gap: 10px; /* Khoảng cách giữa các phần tử */}
+    width: 200px;
+}
 
 .header__nav-item:hover .sub-nav-wrap {
     display: flex;
 }
-.sub-nav__item {
-    padding: 10px; /* Thêm khoảng cách trong từng cột */
-}
 
 .sub-nav__link {
     display: block;
-    font-size: 1.6rem;
+    font-size: 1rem;
     padding: 14px 12px;
+    text-decoration: none;
     color: var(--black-cl-1)
 }
 
 .sub-nav__link.heading {
-    font-size: 1.7rem;
+    font-size: 1.3rem;
     font-weight: 500;
     text-transform: uppercase;
 }
@@ -784,7 +797,15 @@ textarea.form-control {
 .header__nav .nav__search {
     display: none
 }
-
+.header__nav.fixed {
+    position: fixed;  /* Make the menu fixed */
+    top: 0;           /* Align it to the top */
+    left: 0;          /* Align it to the left */
+    right: 0;         /* Align it to the right */
+    background-color: gray; /* Change background color to gray */
+    z-index: 1000;   /* Ensure it's on top of other elements */
+    transition: background-color 0.3s; /* Smooth transition for background color */
+}
 
 /* ---Icon bar--- */
 
@@ -875,24 +896,29 @@ textarea.form-control {
     padding-left: 12px;
     padding-right: 12px;
     padding-bottom: 20px;
+    text-decoration: none;
 }
 
 .footer__title {
     color: var(--white-cl-1);
-    font-size: 1.8rem;
+    font-size: 1.2rem;
     text-transform: uppercase;
     margin-bottom: 16px;
+    text-decoration: none;
+
 }
 
 .footer__link,
 .footer__text {
     display: block;
     color: var(--white-cl-2);
-    font-size: 1.6rem;
+    font-size: 1rem;
     line-height: 2.4rem;
     padding: 6px 0;
     align-items: center;
     font-weight: 300;
+    text-decoration: none;
+
 }
 
 .footer__link:hover {
@@ -1079,19 +1105,18 @@ textarea.form-control {
 }
 
 .product__name {
-    font-size: 1.6rem;
-    font-weight: 500;
-    line-height: 1.8rem;
+    font-size: 1rem;
+    font-weight: 200;
+    line-height: 1rem;
     height: calc(18px);
     overflow: hidden;
     display: block;
     display: -webkit-box;
     -webkit-box-orient: vertical;
-    -webkit-line-clamp: 1;
 }
 
 .product__price {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     display: flex;
     justify-content: space-between;
     margin-top: 12px;
@@ -1156,26 +1181,26 @@ textarea.form-control {
 .product .viewDetail,
 .product .addToCart {
     position: absolute;
-    left: 50%;
+    left: 10%;
     display: block;
-    transform: translateX(-50%);
-    width: 90%;
-    padding: 12px 0;
+    transform: translateX(-10%);
+    width: 30%;
+    padding: 10px 0;
     background-color: rgba(0, 0, 0, 0.15);
-    font-size: 1.6rem;
+    font-size: 15px;
     text-align: center;
     color: var(--white-cl-1);
     display: none;
 }
 
 .product .viewDetail {
-    top: 30%;
+    top: 10%;
     animation: btnDown linear 3s;
 }
 
 .product .addToCart {
     animation: btnUp linear 3s;
-    top: 50%;
+    top: 10%;
 }
 
 .product .viewDetail:hover,

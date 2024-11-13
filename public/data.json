@@ -14,74 +14,7 @@
                     "mo_ta": "Các sản phẩm trang điểm mặt bao gồm phấn nền, kem che khuyết điểm, phấn phủ, và tạo khối. Chúng giúp làm đều màu da, che đi các khuyết điểm như mụn, vết thâm, và mang lại vẻ ngoài mịn màng, tự nhiên cho làn da. Những sản phẩm này thường có nhiều loại phù hợp với từng loại da, từ da khô đến da dầu, giúp tạo lớp nền hoàn hảo.",
                     "created_at": "2024-10-15T00:40:21.000000Z",
                     "updated_at": "2024-10-20T21:36:29.000000Z",
-                    "san_pham": [
-                        {
-                            "ma_san_pham": 6,
-                            "ma_loai_san_pham": 1,
-                            "ten_san_pham": "Son môi",
-                            "mau_sac": "Đỏ",
-                            "tinh_trang": "hahaha",
-                            "gia_ban": "200000.00",
-                            "mo_ta": "Son môi màu đỏ, không chứa chì",
-                            "created_at": "2024-10-16T14:54:12.000000Z",
-                            "updated_at": "2024-10-16T14:54:12.000000Z",
-                            "nha_cung_cap": {
-                                "ma_nha_cung_cap": 1,
-                                "ten_nha_cung_cap": "Công ty A",
-                                "dia_chi": "Địa chỉ A",
-                                "so_dien_thoai": "0123456789",
-                                "email": "contact@congtyA.com",
-                                "created_at": "2024-10-15T00:40:21.000000Z",
-                                "updated_at": "2024-10-15T00:40:21.000000Z"
-                            },
-                            "khuyen_mai_san_pham": [],
-                            "anh_san_pham": []
-                        },
-                        {
-                            "ma_san_pham": 10,
-                            "ma_loai_san_pham": 1,
-                            "ten_san_pham": "Son môi",
-                            "mau_sac": "Đỏ",
-                            "tinh_trang": "hahaha",
-                            "gia_ban": "200000.00",
-                            "mo_ta": "Son môi màu đỏ, không chứa chì",
-                            "created_at": "2024-10-20T03:15:28.000000Z",
-                            "updated_at": "2024-10-20T03:15:28.000000Z",
-                            "nha_cung_cap": {
-                                "ma_nha_cung_cap": 1,
-                                "ten_nha_cung_cap": "Công ty A",
-                                "dia_chi": "Địa chỉ A",
-                                "so_dien_thoai": "0123456789",
-                                "email": "contact@congtyA.com",
-                                "created_at": "2024-10-15T00:40:21.000000Z",
-                                "updated_at": "2024-10-15T00:40:21.000000Z"
-                            },
-                            "khuyen_mai_san_pham": [],
-                            "anh_san_pham": []
-                        },
-                        {
-                            "ma_san_pham": 11,
-                            "ma_loai_san_pham": 1,
-                            "ten_san_pham": "Son môi",
-                            "mau_sac": "Đỏ",
-                            "tinh_trang": "hahaha",
-                            "gia_ban": "200000.00",
-                            "mo_ta": "Son môi màu đỏ, không chứa chì",
-                            "created_at": "2024-10-20T03:15:29.000000Z",
-                            "updated_at": "2024-10-20T03:15:29.000000Z",
-                            "nha_cung_cap": {
-                                "ma_nha_cung_cap": 1,
-                                "ten_nha_cung_cap": "Công ty A",
-                                "dia_chi": "Địa chỉ A",
-                                "so_dien_thoai": "0123456789",
-                                "email": "contact@congtyA.com",
-                                "created_at": "2024-10-15T00:40:21.000000Z",
-                                "updated_at": "2024-10-15T00:40:21.000000Z"
-                            },
-                            "khuyen_mai_san_pham": [],
-                            "anh_san_pham": []
-                        }
-                    ]
+                    "san_pham": []
                 },
                 {
                     "ma_loai_san_pham": 2,
@@ -93,111 +26,165 @@
                     "san_pham": [
                         {
                             "ma_san_pham": 1,
-                            "ma_loai_san_pham": 2,
-                            "ten_san_pham": "Sữa Rửa Mặt Phục Hồi Da Murad Essential-C Cleanser 200Ml",
-                            "mau_sac": "Đỏ",
-                            "tinh_trang": "Còn Hàng",
-                            "gia_ban": "1210000.00",
-                            "mo_ta": "Da thường xuyên tiếp xúc ánh nắng mặt trời, khói bụi và trang điểm. Nếu không làm sạch đúng cách sẽ dẫn đến tình trạng lão hóa, chảy xệ da nghiêm trọng. Để giải quyết vấn đề này, bác sĩ Murad đã ra mắt sữa rửa mặt không chứa chất tẩy rửa mạnh nhưng lại có công dụng làm sạch bề mặt da hiệu quả. Bên cạnh đó, sản phẩm được áp dụng công nghệ mùi hương giúp đánh thức mọi giác quan và mang lại làn da tươi tỉnh, tràn đầy sức sống.",
-                            "created_at": "2024-10-15T00:40:21.000000Z",
-                            "updated_at": "2024-10-20T15:39:23.000000Z",
-                            "nha_cung_cap": {
-                                "ma_nha_cung_cap": 1,
-                                "ten_nha_cung_cap": "Công ty A",
-                                "dia_chi": "Địa chỉ A",
-                                "so_dien_thoai": "0123456789",
-                                "email": "contact@congtyA.com",
-                                "created_at": "2024-10-15T00:40:21.000000Z",
-                                "updated_at": "2024-10-15T00:40:21.000000Z"
-                            },
+                            "ten_san_pham": "Son Môi",
+                            "MaSanPham": "001",
+                            "NhaSanXuat": "La Roche-Posay",
+                            "NamSanXuat": 2023,
+                            "slug": "son-moi-la-roche-posay",
+                            "MoTaChinh": [
+                                {
+                                    "ID_MoTaChinh": 1,
+                                    "LoaiMoTa": "Thông Tin Chung",
+                                    "NgayCapNhat": "10/27/2024",
+                                    "chi_tiet": [
+                                        {
+                                            "ID_ChiTietMoTa": 1,
+                                            "TieuDe": "1. Son Dưỡng Giúp Phục Hồi Môi La Roche-Posay",
+                                            "NoiDung": "Dưỡng ẩm và làm mềm môi"
+                                        },
+                                        {
+                                            "ID_ChiTietMoTa": 2,
+                                            "TieuDe": "2. Son Dưỡng La Roche-Posay Với Thành Phần Tự Nhiên",
+                                            "NoiDung": "Cung cấp độ ẩm lâu dài, phù hợp cho môi khô và nhạy cảm."
+                                        }
+                                    ]
+                                },
+                                {
+                                    "ID_MoTaChinh": 2,
+                                    "LoaiMoTa": "Thông Số",
+                                    "NgayCapNhat": "10/27/2024",
+                                    "chi_tiet": [
+                                        {
+                                            "ID_ChiTietMoTa": 3,
+                                            "TieuDe": "Thành Phần Chính",
+                                            "NoiDung": "Vitamin E, Shea Butter"
+                                        },
+                                        {
+                                            "ID_ChiTietMoTa": 4,
+                                            "TieuDe": "Barcode",
+                                            "NoiDung": "3337875816809"
+                                        },
+                                        {
+                                            "ID_ChiTietMoTa": 5,
+                                            "TieuDe": "Thương Hiệu",
+                                            "NoiDung": "La Roche-Posay"
+                                        },
+                                        {
+                                            "ID_ChiTietMoTa": 6,
+                                            "TieuDe": "Xuất xứ thương hiệu",
+                                            "NoiDung": "Pháp"
+                                        },
+                                        {
+                                            "ID_ChiTietMoTa": 7,
+                                            "TieuDe": "Nơi sản xuất",
+                                            "NoiDung": "France"
+                                        },
+                                        {
+                                            "ID_ChiTietMoTa": 8,
+                                            "TieuDe": "Loại da",
+                                            "NoiDung": "Da nhạy cảm"
+                                        },
+                                        {
+                                            "ID_ChiTietMoTa": 9,
+                                            "TieuDe": "Đặc tính",
+                                            "NoiDung": "Không chứa hương liệu"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "ID_MoTaChinh": 3,
+                                    "LoaiMoTa": "Thành Phần",
+                                    "NgayCapNhat": "10/27/2024",
+                                    "chi_tiet": [
+                                        {
+                                            "ID_ChiTietMoTa": 10,
+                                            "TieuDe": "1. Son Dưỡng Giúp Phục Hồi Môi La Roche-Posay",
+                                            "NoiDung": "Aqua, Glycerin, Shea Butter, Panthenol, Tocopherol, Citric Acid"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "ID_MoTaChinh": 4,
+                                    "LoaiMoTa": "Cách Dùng",
+                                    "NgayCapNhat": "10/27/2024",
+                                    "chi_tiet": [
+                                        {
+                                            "ID_ChiTietMoTa": 12,
+                                            "TieuDe": "1. Son Dưỡng Giúp Phục Hồi Môi La Roche-Posay",
+                                            "NoiDung": "Thoa đều lên môi mỗi sáng và tối, hoặc bất cứ khi nào môi cảm thấy khô. Để có kết quả tốt nhất, sử dụng đều đặn hàng ngày."
+                                        }
+                                    ]
+                                }
+                            ],
+                            "bien_the_san_pham": [
+                                {
+                                    "ID_BienThe": 1,
+                                    "TenBienThe": "Son Môi La Roche-Posay 4g",
+                                    "KhoiLuong": "4g",
+                                    "GiaBan": 210000,
+                                    "MauSac": [
+                                        {
+                                            "Mau": "Hồng",
+                                            "MoTa": "Son môi dưỡng ẩm, màu sắc nhẹ nhàng, thích hợp cho mọi phong cách."
+                                        },
+                                        {
+                                            "Mau": "Đỏ",
+                                            "MoTa": "Son môi dưỡng ẩm, màu đỏ tươi nổi bật, thích hợp cho mọi dịp."
+                                        }
+                                    ]
+                                },
+                                {
+                                    "ID_BienThe": 2,
+                                    "TenBienThe": "Son Môi La Roche-Posay 6g",
+                                    "KhoiLuong": "6g",
+                                    "GiaBan": 240000,
+                                    "MauSac": [
+                                        {
+                                            "Mau": "Hồng",
+                                            "MoTa": "Son môi dưỡng ẩm, màu hồng nhẹ, dễ dàng sử dụng hằng ngày."
+                                        },
+                                        {
+                                            "Mau": "Cam",
+                                            "MoTa": "Son môi dưỡng ẩm, màu cam tươi trẻ, nổi bật và năng động."
+                                        }
+                                    ]
+                                }
+                            ],
                             "khuyen_mai_san_pham": [
                                 {
-                                    "ma_khuyen_mai": 1,
-                                    "muc_giam_gia": "10.00",
-                                    "ngay_bat_dau": "2024-10-15",
-                                    "ngay_ket_thuc": "2024-10-25",
-                                    "dieu_kien_ap_dung": "Mua 2 tặng 1",
-                                    "created_at": "2024-10-15T00:40:21.000000Z",
-                                    "updated_at": "2024-10-15T00:40:21.000000Z"
+                                    "ID_KhuyenMai": 1,
+                                    "TenKhuyenMai": "Giảm 20% cho đơn hàng đầu tiên",
+                                    "ThoiGianBatDau": "10/01/2024",
+                                    "ThoiGianKetThuc": "10/31/2024",
+                                    "muc_giam_gia": 20
+                                },
+                                {
+                                    "ID_KhuyenMai": 2,
+                                    "TenKhuyenMai": "Mua 1 tặng 1",
+                                    "ThoiGianBatDau": "11/01/2024",
+                                    "ThoiGianKetThuc": "11/30/2024",
+                                    "muc_giam_gia": 50
                                 }
                             ],
                             "anh_san_pham": [
                                 {
                                     "ma_anh_san_pham": 1,
-                                    "url_anh": "https://res.cloudinary.com/dmwzseqfw/image/upload/v1729013458/PJ_MYPHAM/SanPham/4de91d5e-60fd-4aa0-b889-4c70e9781b64_ckd3he.webp",
-                                    "la_anh_chinh": 1,
-                                    "created_at": "2024-10-16T01:03:55.000000Z",
-                                    "updated_at": "2024-10-16T01:03:55.000000Z"
+                                    "url_anh": "https://www.shiseido.com.vn/dw/image/v2/BCSK_PRD/on/demandware.static/-/Sites-itemmaster_shiseido/default/dw14d75c28/images/products/18058/18058_S_01.jpg?sw=1000&sh=1000&sm=fit",
+                                    "la_anh_chinh": 1
                                 },
                                 {
                                     "ma_anh_san_pham": 2,
-                                    "url_anh": "https://res.cloudinary.com/dmwzseqfw/image/upload/v1729013555/PJ_MYPHAM/SanPham/566953b4-8c37-4464-a034-24a2f007779e_oxtxaf.webp",
-                                    "la_anh_chinh": 0,
-                                    "created_at": "2024-10-16T01:03:55.000000Z",
-                                    "updated_at": "2024-10-16T01:03:55.000000Z"
-                                },
-                                {
-                                    "ma_anh_san_pham": 3,
-                                    "url_anh": "https://res.cloudinary.com/dmwzseqfw/image/upload/v1729013368/PJ_MYPHAM/SanPham/suaruamat1_kkzzrl.webp",
-                                    "la_anh_chinh": 0,
-                                    "created_at": "2024-10-16T01:03:55.000000Z",
-                                    "updated_at": "2024-10-16T01:03:55.000000Z"
+                                    "url_anh": "https://media.comem.vn/uploads/August2023/combo-duong-hong-moi-bia-3_sp2x.webp",
+                                    "la_anh_chinh": 0
                                 }
-                            ]
-                        },
-                        {
-                            "ma_san_pham": 3,
-                            "ma_loai_san_pham": 2,
-                            "ten_san_pham": "Son Thỏi Lì THE FACE SHOP Fmgt New Bold Velvet Lipstick 3.5g",
-                            "mau_sac": "Đỏ",
-                            "tinh_trang": "Còn Hàng",
-                            "gia_ban": "649000.00",
-                            "mo_ta": "Son thỏi nhung lì New Bold Velvet Lipstick có kết cấu hạt phấn siêu nhỏ, siêu mịn len lỏi làm đầy rãnh môi, tạo hiệu ứng đôi môi căng bóng, tràn đầy sức sống. Chất son mềm mại, tan chảy bao bọc trọn vẹn đôi môi biến một ngày bình thường của bạn trở nên đặc biệt hơn bao giờ hết.New Bold Velvet Lipstick được áp dụng công nghệ hiện đại, độc quyền không để lộ vân môi, chứa 8 loại dầu giàu vitamin E gồm hạt hướng dương, hạt bông, đậu đen, hạt rum, hạt lanh, trà xanh, dầu hạt mơ, hắc mai biển có công dụng bổ sung dưỡng chất, giảm thiểu khô, nứt nẻ trên môi.",
-                            "created_at": "2024-10-15T00:40:21.000000Z",
-                            "updated_at": "2024-10-20T15:30:04.000000Z",
+                            ],
                             "nha_cung_cap": {
                                 "ma_nha_cung_cap": 1,
                                 "ten_nha_cung_cap": "Công ty A",
                                 "dia_chi": "Địa chỉ A",
                                 "so_dien_thoai": "0123456789",
-                                "email": "contact@congtyA.com",
-                                "created_at": "2024-10-15T00:40:21.000000Z",
-                                "updated_at": "2024-10-15T00:40:21.000000Z"
-                            },
-                            "khuyen_mai_san_pham": [
-                                {
-                                    "ma_khuyen_mai": 3,
-                                    "muc_giam_gia": "5.00",
-                                    "ngay_bat_dau": "2024-10-15",
-                                    "ngay_ket_thuc": "2024-10-20",
-                                    "dieu_kien_ap_dung": "Giảm giá cho đơn hàng trên 500.000",
-                                    "created_at": "2024-10-15T00:40:21.000000Z",
-                                    "updated_at": "2024-10-15T00:40:21.000000Z"
-                                }
-                            ],
-                            "anh_san_pham": [
-                                {
-                                    "ma_anh_san_pham": 7,
-                                    "url_anh": "https://res.cloudinary.com/dmwzseqfw/image/upload/v1729014769/PJ_MYPHAM/SanPham/ec82968b-50fc-4625-ae04-837ca98b03a4_fxmvgq.webp",
-                                    "la_anh_chinh": 1,
-                                    "created_at": "2024-10-16T01:03:55.000000Z",
-                                    "updated_at": "2024-10-16T01:03:55.000000Z"
-                                },
-                                {
-                                    "ma_anh_san_pham": 8,
-                                    "url_anh": "https://res.cloudinary.com/dmwzseqfw/image/upload/v1729014769/PJ_MYPHAM/SanPham/a5e9a241-1379-4e16-bc28-f389849c7cd7_yofz36.webp",
-                                    "la_anh_chinh": 0,
-                                    "created_at": "2024-10-16T01:03:55.000000Z",
-                                    "updated_at": "2024-10-16T01:03:55.000000Z"
-                                },
-                                {
-                                    "ma_anh_san_pham": 9,
-                                    "url_anh": "https://res.cloudinary.com/dmwzseqfw/image/upload/v1729014769/PJ_MYPHAM/SanPham/ec82968b-50fc-4625-ae04-837ca98b03a4_fxmvgq.webp",
-                                    "la_anh_chinh": 0,
-                                    "created_at": "2024-10-16T01:03:55.000000Z",
-                                    "updated_at": "2024-10-16T01:03:55.000000Z"
-                                }
-                            ]
+                                "email": "contact@congtyA.com"
+                            }
                         }
                     ]
                 },
@@ -228,58 +215,408 @@
                     "updated_at": "2024-10-20T21:42:36.000000Z",
                     "san_pham": [
                         {
-                            "ma_san_pham": 4,
-                            "ma_loai_san_pham": 4,
-                            "ten_san_pham": "Nước Cân Bằng Làm Trẻ Hóa Da AHC Youth Focus Toner 130Ml",
-                            "mau_sac": "Đỏ",
-                            "tinh_trang": "Còn Hàng",
-                            "gia_ban": "912000.00",
-                            "mo_ta": "Nằm trong dòng chống lão hóa da AHC Youth Focus, nước cân bằng được xem là bước đầu khai mở cho làn da, loại bỏ các rào cản làm tăng hiệu quả hấp thụ của da ở các bước dưỡng sau đó. AHC Youth Focus Toner sở hữu công thức dưỡng da nhẹ giúp thúc đẩy kết cấu da đồng nhất, làm mềm mịn và tươi trẻ làn da. Toner cấp nước tức thì, cải thiện lại hàng rào ẩm cho da giúp sửa chữa tình trạng da khô, thô sần, tối sạm trở nên mịn màng, tươi tắn hơn. Làn da của bạn sẽ cảm giác sạch sẽ, tươi mát và sẵn sàng cho bước chăm sóc tiếp theo. Thành phần retinal sẽ giúp làm tăng sinh collagen cho da, cải thiện sự gồ ghề, nếp gấp trên bề mặt da đồng thời hỗ trợ chống oxy hóa, ngăn ngừa mụn xuất hiện.",
-                            "created_at": "2024-10-15T00:40:21.000000Z",
-                            "updated_at": "2024-10-20T15:39:00.000000Z",
+                            "ma_san_pham": 1,
+                            "ten_san_pham": "Kem Dưỡng Giúp Phục Hồi La Roche-Posay Cicaplast Baume B5+",
+                            "MaSanPham": "001",
+                            "NhaSanXuat": "La Roche-Posay",
+                            "NamSanXuat": 2023,
+                            "slug": "kem-duong-giup-phuc-hoi-da-da-cong-dung-la-roche-posay-cicaplast-baume-b5",
+                            "MoTaChinh": [
+                                {
+                                    "ID_MoTaChinh": 1,
+                                    "LoaiMoTa": "Thông Tin Chung",
+                                    "NgayCapNhat": "10/27/2024",
+                                    "chi_tiet": [
+                                        {
+                                            "ID_ChiTietMoTa": 1,
+                                            "TieuDe": "1. Kem Dưỡng Giúp Phục Hồi Da Đa Công Dụng La Roche-Posay Cicaplast Baume B5+ Ultra-Repairing Soothing Balm",
+                                            "NoiDung": "Dưỡng ẩm và phục hồi da"
+                                        },
+                                        {
+                                            "ID_ChiTietMoTa": 2,
+                                            "TieuDe": "2. Xịt Khoáng La Roche-Posay Thermal Spring Water Sensitive Skin Làm Dịu Và Bảo Vệ Da 50g",
+                                            "NoiDung": "Xịt Khoáng La Roche-Posay Thermal Spring Water Sensitive Skin là dòng xịt khoáng chuyên biệt dành cho làn da nhạy cảm, dễ kích ứng, được sản xuất từ nước khoáng với nguồn khoáng chất cân bằng và giàu các nguyên tố vi lượng, đặc biệt là Selenium, sẽ giúp làm dịu mát làn da, giảm kích ứng và chống oxy hoá hiệu quả. Kết cấu sản phẩm dạng phun sương với các giọt nước siêu nhỏ, thẩm thấu sâu vào da ngay tức thì."
+                                        }
+                                    ]
+                                },
+                                {
+                                    "ID_MoTaChinh": 2,
+                                    "LoaiMoTa": "Thông Số",
+                                    "NgayCapNhat": "10/27/2024",
+                                    "chi_tiet": [
+                                        {
+                                            "ID_ChiTietMoTa": 3,
+                                            "TieuDe": "Thành Phần Chính",
+                                            "NoiDung": "Vitamin C, Hyaluronic Acid"
+                                        },
+                                        {
+                                            "ID_ChiTietMoTa": 4,
+                                            "TieuDe": "Barcode",
+                                            "NoiDung": "3337875816809"
+                                        },
+                                        {
+                                            "ID_ChiTietMoTa": 5,
+                                            "TieuDe": "Thương Hiệu",
+                                            "NoiDung": "La Roche-Posay"
+                                        },
+                                        {
+                                            "ID_ChiTietMoTa": 6,
+                                            "TieuDe": "Xuất xứ thương hiệu",
+                                            "NoiDung": "Pháp"
+                                        },
+                                        {
+                                            "ID_ChiTietMoTa": 7,
+                                            "TieuDe": "Nơi sản xuất",
+                                            "NoiDung": "France"
+                                        },
+                                        {
+                                            "ID_ChiTietMoTa": 8,
+                                            "TieuDe": "Loại da",
+                                            "NoiDung": "Da nhạy cảm"
+                                        },
+                                        {
+                                            "ID_ChiTietMoTa": 9,
+                                            "TieuDe": "Đặc tính",
+                                            "NoiDung": "Không hương liệu"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "ID_MoTaChinh": 3,
+                                    "LoaiMoTa": "Thành Phần",
+                                    "NgayCapNhat": "10/27/2024",
+                                    "chi_tiet": [
+                                        {
+                                            "ID_ChiTietMoTa": 10,
+                                            "TieuDe": "1. Kem Dưỡng Giúp Phục Hồi Da Đa Công Dụng La Roche-Posay Cicaplast Baume B5+ Ultra-Repairing Soothing Balm",
+                                            "NoiDung": "Aqua, Hydrogenated Polyisobutene, Dimethicone, Glycerin, Butyrospermum Parkii Butter / Hea Butter, Panthenol, Propanediol, Butylene Glycol, Aluminum Starch Octenylsuccinate, Cetyl Peg/Ppg-10/1 Dimethicone, Trihydroxystearin, Zinc Gluconate, Madecassoside, Tribioma, Manganese Gluconate, Silica, Aluminum Hydroxide, Magnesium Sulfate, Disodium Edta, Copper Gluconate, Capryloyl Glycine, Citric Acid, Acetylated Glycol Stearate, Polyglyceryl-4 Isostearate, Tocopherol, Pentaerythrityl Tetra-Di-T-Butyl Hydroxyhydrocinnamate, Ci 77891 / Titanium Dioxide"
+                                        },
+                                        {
+                                            "ID_ChiTietMoTa": 11,
+                                            "TieuDe": "2. Xịt Khoáng La Roche-Posay Thermal Spring Water Sensitive Skin Làm Dịu Và Bảo Vệ Da 50g",
+                                            "NoiDung": "Selenium: là một nguyên tố vi lượng cần thiết cho trạng thái cân bằng sinh học của con người. Nước khoáng La Roche-Posay có nồng độ Selenium cao tự nhiên, mang lại cho sản phẩm những đặc tính không gì sánh bằng."
+                                        }
+                                    ]
+                                },
+                                {
+                                    "ID_MoTaChinh": 4,
+                                    "LoaiMoTa": "Cách Dùng",
+                                    "NgayCapNhat": "10/27/2024",
+                                    "chi_tiet": [
+                                        {
+                                            "ID_ChiTietMoTa": 12,
+                                            "TieuDe": "1. Kem Dưỡng Giúp Phục Hồi Da Đa Công Dụng La Roche-Posay Cicaplast Baume B5+ Ultra-Repairing Soothing Balm",
+                                            "NoiDung": "Để đạt được hiệu quả tốt nhất khi sử dụng kem dưỡng, trước tiên, bạn cần làm sạch vùng da cần thoa kem. Sau đó, lấy một lượng kem vừa đủ, thoa đều lên da và vỗ nhẹ để kem thẩm thấu nhanh hơn. Mỗi ngày, nên sử dụng kem 2 lần vào buổi sáng và tối. Lưu ý rằng bạn có thể bôi kem lên vùng da tổn thương để giúp da phục hồi nhanh hơn; tuy nhiên, cần tránh để kem dính vào mắt."
+                                        },
+                                        {
+                                            "ID_ChiTietMoTa": 13,
+                                            "TieuDe": "2. Xịt Khoáng La Roche-Posay Thermal Spring Water Sensitive Skin Làm Dịu Và Bảo Vệ Da 50g",
+                                            "NoiDung": "Bạn nên sử dụng xịt khoáng La Roche-Posay thường xuyên nhất có thể, bất kỳ thời điểm nào trong ngày khi cảm thấy da khô, mệt mỏi hoặc bị kích ứng. Khi xịt, hãy để cách mặt khoảng 20cm và xịt đều nhẹ nhàng lên mặt và cổ từ 2-3 lần. Sau đó, để xịt khoáng trên da trong 3 phút, rồi vỗ nhẹ nhàng để làm khô. Nếu cần, bạn có thể tiếp tục sử dụng sữa dưỡng hoặc kem dưỡng sau đó. Để tăng thêm hiệu quả, có thể bảo quản xịt khoáng trong tủ lạnh để tận hưởng cảm giác tươi mát khi sử dụng."
+                                        }
+                                    ]
+                                }
+                            ],
+                            "bien_the_san_pham": [
+                                {
+                                    "ID_BienThe": 1,
+                                    "TenBienThe": "Kem Cicaplast B5+ 30ml",
+                                    "KhoiLuong": "30ml",
+                                    "MauSac": "Trong",
+                                    "GiaBan": 300000,
+                                    "MoTa": "Dưỡng ẩm và phục hồi da"
+                                },
+                                {
+                                    "ID_BienThe": 2,
+                                    "TenBienThe": "Kem Cicaplast B5+ 100ml",
+                                    "KhoiLuong": "100ml",
+                                    "MauSac": "Trong",
+                                    "GiaBan": 800000,
+                                    "MoTa": "Dưỡng ẩm và phục hồi da"
+                                },
+                                {
+                                    "ID_BienThe": 3,
+                                    "TenBienThe": "Kem Cicaplast B5+ 200ml",
+                                    "KhoiLuong": "200ml",
+                                    "MauSac": "Trong",
+                                    "GiaBan": 1500000,
+                                    "MoTa": "Dưỡng ẩm và phục hồi da"
+                                }
+                            ],
+                            "khuyen_mai_san_pham": [
+                                {
+                                    "ID_KhuyenMai": 1,
+                                    "TenKhuyenMai": "Giảm 20% cho đơn hàng đầu tiên",
+                                    "ThoiGianBatDau": "10/01/2024",
+                                    "ThoiGianKetThuc": "10/31/2024",
+                                    "muc_giam_gia": 20
+                                },
+                                {
+                                    "ID_KhuyenMai": 2,
+                                    "TenKhuyenMai": "Mua 1 tặng 1",
+                                    "ThoiGianBatDau": "11/01/2024",
+                                    "ThoiGianKetThuc": "11/30/2024",
+                                    "muc_giam_gia": 50
+                                }
+                            ],
+                            "anh_san_pham": [
+                                {
+                                    "ma_anh_san_pham": 1,
+                                    "url_anh": "https://res.cloudinary.com/dmwzseqfw/image/upload/v1729013458/PJ_MYPHAM/SanPham/4de91d5e-60fd-4aa0-b889-4c70e9781b64_ckd3he.webp",
+                                    "la_anh_chinh": 1
+                                },
+                                {
+                                    "ma_anh_san_pham": 2,
+                                    "url_anh": "https://res.cloudinary.com/dmwzseqfw/image/upload/v1729013458/PJ_MYPHAM/SanPham/4de91d5e-60fd-4aa0-b889-4c70e9781b64_ckd3he.webp",
+                                    "la_anh_chinh": 1
+                                }
+                            ],
                             "nha_cung_cap": {
                                 "ma_nha_cung_cap": 1,
                                 "ten_nha_cung_cap": "Công ty A",
                                 "dia_chi": "Địa chỉ A",
                                 "so_dien_thoai": "0123456789",
-                                "email": "contact@congtyA.com",
-                                "created_at": "2024-10-15T00:40:21.000000Z",
-                                "updated_at": "2024-10-15T00:40:21.000000Z"
-                            },
+                                "email": "contact@congtyA.com"
+                            }
+                        },
+                        {
+                            "ma_san_pham": 2,
+                            "ten_san_pham": "Sữa Rửa Mặt Làm Sạch Sâu Murad Clarifying Cleanser",
+                            "MaSanPham": "002",
+                            "NhaSanXuat": "Murad",
+                            "NamSanXuat": 2024,
+                            "slug": "sua-rua-mat-lam-sach-sau-murad-clarifying-cleanser",
+                            "MoTaChinh": [
+                                {
+                                    "ID_MoTaChinh": 1,
+                                    "LoaiMoTa": "Thông Tin Chung",
+                                    "NgayCapNhat": "10/27/2024",
+                                    "chi_tiet": [
+                                        {
+                                            "ID_ChiTietMoTa": 1,
+                                            "TieuDe": "Xuất Xứ",
+                                            "NoiDung": "Mỹ"
+                                        },
+                                        {
+                                            "ID_ChiTietMoTa": 2,
+                                            "TieuDe": "Công Dụng",
+                                            "NoiDung": "Làm sạch sâu và loại bỏ dầu thừa"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "ID_MoTaChinh": 2,
+                                    "LoaiMoTa": "Thành Phần",
+                                    "NgayCapNhat": "10/27/2024",
+                                    "chi_tiet": [
+                                        {
+                                            "ID_ChiTietMoTa": 3,
+                                            "TieuDe": "Thành Phần Chính",
+                                            "NoiDung": "Salicylic Acid, Glycolic Acid"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "ID_MoTaChinh": 3,
+                                    "LoaiMoTa": "Thông Số Kỹ Thuật",
+                                    "NgayCapNhat": "10/27/2024",
+                                    "chi_tiet": [
+                                        {
+                                            "ID_ChiTietMoTa": 4,
+                                            "TieuDe": "Khối Lượng Tịnh",
+                                            "NoiDung": "200ml"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "bien_the_san_pham": [
+                                {
+                                    "ID_BienThe": 1,
+                                    "TenBienThe": "Sữa Rửa Mặt 200ml",
+                                    "KhoiLuong": "200ml",
+                                    "MauSac": "Trong",
+                                    "GiaBan": 900000,
+                                    "MoTa": "Làm sạch sâu và loại bỏ dầu thừa"
+                                },
+                                {
+                                    "ID_BienThe": 2,
+                                    "TenBienThe": "Sữa Rửa Mặt 500ml",
+                                    "KhoiLuong": "500ml",
+                                    "MauSac": "Trong",
+                                    "GiaBan": 1500000,
+                                    "MoTa": "Làm sạch sâu và loại bỏ dầu thừa"
+                                }
+                            ],
                             "khuyen_mai_san_pham": [
                                 {
-                                    "ma_khuyen_mai": 4,
-                                    "muc_giam_gia": "20.00",
-                                    "ngay_bat_dau": "2024-10-15",
-                                    "ngay_ket_thuc": "2024-11-04",
-                                    "dieu_kien_ap_dung": "Khách hàng thân thiết",
-                                    "created_at": "2024-10-15T00:40:21.000000Z",
-                                    "updated_at": "2024-10-15T00:40:21.000000Z"
+                                    "ID_KhuyenMai": 1,
+                                    "TenKhuyenMai": "Giảm 15% cho đơn hàng đầu tiên",
+                                    "ThoiGianBatDau": "10/01/2024",
+                                    "ThoiGianKetThuc": "10/31/2024",
+                                    "muc_giam_gia": 15
+                                },
+                                {
+                                    "ID_KhuyenMai": 2,
+                                    "TenKhuyenMai": "Giảm giá 10% cho sản phẩm lớn",
+                                    "ThoiGianBatDau": "11/01/2024",
+                                    "ThoiGianKetThuc": "11/30/2024",
+                                    "muc_giam_gia": 10
                                 }
                             ],
                             "anh_san_pham": [
                                 {
-                                    "ma_anh_san_pham": 10,
-                                    "url_anh": "https://res.cloudinary.com/dmwzseqfw/image/upload/v1729015060/PJ_MYPHAM/SanPham/b4430ea1-53d7-40e9-9686-ce2e86a1f5c8_xbfkoi.webp",
-                                    "la_anh_chinh": 1,
-                                    "created_at": "2024-10-16T01:03:55.000000Z",
-                                    "updated_at": "2024-10-16T01:03:55.000000Z"
-                                },
-                                {
-                                    "ma_anh_san_pham": 11,
-                                    "url_anh": "https://res.cloudinary.com/dmwzseqfw/image/upload/v1729015060/PJ_MYPHAM/SanPham/9b7e0a21-f378-4089-930d-021225f918a7_ec9by0.webp",
-                                    "la_anh_chinh": 0,
-                                    "created_at": "2024-10-16T01:03:55.000000Z",
-                                    "updated_at": "2024-10-16T01:03:55.000000Z"
-                                },
-                                {
-                                    "ma_anh_san_pham": 12,
-                                    "url_anh": "https://res.cloudinary.com/dmwzseqfw/image/upload/v1729015060/PJ_MYPHAM/SanPham/d970dc9d-57ce-429e-8d12-ba99508fd465_v2olvr.webp",
-                                    "la_anh_chinh": 0,
-                                    "created_at": "2024-10-16T01:03:55.000000Z",
-                                    "updated_at": "2024-10-16T01:03:55.000000Z"
+                                    "ma_anh_san_pham": 1,
+                                    "url_anh": "https://nhathuockhangviet.com/wp-content/uploads/2024/04/Murad-Clarifying-Cleanser-chinh-hang-800x800.jpg",
+                                    "la_anh_chinh": 1
                                 }
-                            ]
+                            ],
+                            "nha_cung_cap": {
+                                "ma_nha_cung_cap": 2,
+                                "ten_nha_cung_cap": "Công ty B",
+                                "dia_chi": "Địa chỉ B",
+                                "so_dien_thoai": "0987654321",
+                                "email": "contact@congtyB.com"
+                            }
+                        },
+                        {
+                            "ma_san_pham": 3,
+                            "ten_san_pham": "Kem Dưỡng Làm Sáng Da La Roche-Posay Effaclar Brightening Cream",
+                            "MaSanPham": "003",
+                            "NhaSanXuat": "La Roche-Posay",
+                            "NamSanXuat": 2024,
+                            "slug": "kem-duong-lam-sang-da-la-roche-posay-effaclar-brightening-cream",
+                            "MoTaChinh": [
+                                {
+                                    "ID_MoTaChinh": 1,
+                                    "LoaiMoTa": "Thông Tin Chung",
+                                    "NgayCapNhat": "10/27/2024",
+                                    "chi_tiet": [
+                                        {
+                                            "ID_ChiTietMoTa": 1,
+                                            "TieuDe": "1. Kem Dưỡng Làm Sáng Da La Roche-Posay Effaclar Brightening Cream",
+                                            "NoiDung": "Dưỡng sáng và đều màu da"
+                                        },
+                                        {
+                                            "ID_ChiTietMoTa": 2,
+                                            "TieuDe": "2. Kem Dưỡng Phục Hồi Da La Roche-Posay Cicaplast Baume B5+",
+                                            "NoiDung": "Kem dưỡng ẩm và phục hồi da hiệu quả, giúp cải thiện tình trạng da."
+                                        }
+                                    ]
+                                },
+                                {
+                                    "ID_MoTaChinh": 2,
+                                    "LoaiMoTa": "Thông Số",
+                                    "NgayCapNhat": "10/27/2024",
+                                    "chi_tiet": [
+                                        {
+                                            "ID_ChiTietMoTa": 3,
+                                            "TieuDe": "Thành Phần Chính",
+                                            "NoiDung": "Vitamin C, Niacinamide"
+                                        },
+                                        {
+                                            "ID_ChiTietMoTa": 4,
+                                            "TieuDe": "Barcode",
+                                            "NoiDung": "3337875816809"
+                                        },
+                                        {
+                                            "ID_ChiTietMoTa": 5,
+                                            "TieuDe": "Thương Hiệu",
+                                            "NoiDung": "La Roche-Posay"
+                                        },
+                                        {
+                                            "ID_ChiTietMoTa": 6,
+                                            "TieuDe": "Xuất xứ thương hiệu",
+                                            "NoiDung": "Pháp"
+                                        },
+                                        {
+                                            "ID_ChiTietMoTa": 7,
+                                            "TieuDe": "Nơi sản xuất",
+                                            "NoiDung": "France"
+                                        },
+                                        {
+                                            "ID_ChiTietMoTa": 8,
+                                            "TieuDe": "Loại da",
+                                            "NoiDung": "Da nhạy cảm"
+                                        },
+                                        {
+                                            "ID_ChiTietMoTa": 9,
+                                            "TieuDe": "Đặc tính",
+                                            "NoiDung": "Không hương liệu"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "ID_MoTaChinh": 3,
+                                    "LoaiMoTa": "Thành Phần",
+                                    "NgayCapNhat": "10/27/2024",
+                                    "chi_tiet": [
+                                        {
+                                            "ID_ChiTietMoTa": 10,
+                                            "TieuDe": "1. Kem Dưỡng Làm Sáng Da La Roche-Posay Effaclar Brightening Cream",
+                                            "NoiDung": "Aqua, Glycerin, Ascorbic Acid, Niacinamide, Butylene Glycol, Dimethicone, Stearyl Alcohol, Ethylhexylglycerin, Carbomer, Sodium Hydroxide, Phenoxyethanol."
+                                        }
+                                    ]
+                                },
+                                {
+                                    "ID_MoTaChinh": 4,
+                                    "LoaiMoTa": "Cách Dùng",
+                                    "NgayCapNhat": "10/27/2024",
+                                    "chi_tiet": [
+                                        {
+                                            "ID_ChiTietMoTa": 12,
+                                            "TieuDe": "1. Kem Dưỡng Làm Sáng Da La Roche-Posay Effaclar Brightening Cream",
+                                            "NoiDung": "Sử dụng sau bước làm sạch da. Lấy một lượng vừa đủ, thoa đều lên mặt và cổ. Sử dụng vào buổi sáng và tối để đạt hiệu quả tốt nhất."
+                                        }
+                                    ]
+                                }
+                            ],
+                            "bien_the_san_pham": [
+                                {
+                                    "ID_BienThe": 1,
+                                    "TenBienThe": "Kem Dưỡng 30ml",
+                                    "KhoiLuong": "30ml",
+                                    "MauSac": "Trong",
+                                    "GiaBan": 320000,
+                                    "MoTa": "Dưỡng sáng và đều màu da"
+                                },
+                                {
+                                    "ID_BienThe": 2,
+                                    "TenBienThe": "Kem Dưỡng 50ml",
+                                    "KhoiLuong": "50ml",
+                                    "MauSac": "Trong",
+                                    "GiaBan": 600000,
+                                    "MoTa": "Dưỡng sáng và đều màu da"
+                                }
+                            ],
+                            "khuyen_mai_san_pham": [
+                                {
+                                    "ID_KhuyenMai": 1,
+                                    "TenKhuyenMai": "Giảm 10% cho đơn hàng đầu tiên",
+                                    "ThoiGianBatDau": "11/01/2024",
+                                    "ThoiGianKetThuc": "11/30/2024",
+                                    "muc_giam_gia": 10
+                                },
+                                {
+                                    "ID_KhuyenMai": 2,
+                                    "TenKhuyenMai": "Mua 2 tặng 1",
+                                    "ThoiGianBatDau": "12/01/2024",
+                                    "ThoiGianKetThuc": "12/31/2024",
+                                    "muc_giam_gia": 50
+                                }
+                            ],
+                            "anh_san_pham": [
+                                {
+                                    "ma_anh_san_pham": 1,
+                                    "url_anh": "https://edbeauty.vn/wp-content/uploads/2023/08/Kem-duong-da-giam-mun-La-Roche-Posay-Effaclar-Duo-khong-mau.jpg",
+                                    "la_anh_chinh": 1
+                                }
+                            ],
+                            "nha_cung_cap": {
+                                "ma_nha_cung_cap": 2,
+                                "ten_nha_cung_cap": "Công ty B",
+                                "dia_chi": "Địa chỉ B",
+                                "so_dien_thoai": "0987654321",
+                                "email": "contact@congtyB.com"
+                            }
                         }
                     ]
                 },
@@ -292,58 +629,311 @@
                     "updated_at": "2024-10-20T21:42:36.000000Z",
                     "san_pham": [
                         {
-                            "ma_san_pham": 2,
-                            "ma_loai_san_pham": 5,
-                            "ten_san_pham": "Sữa Rửa Mặt Cho Da Dầu Mụn La Roche-Posay Effaclar Purifying Foaming Gel",
-                            "mau_sac": "Đỏ",
-                            "tinh_trang": "Còn Hàng",
-                            "gia_ban": "555000.00",
-                            "mo_ta": "EFFACLAR là dòng sản phẩm chăm sóc da nhờn mụn nổi tiếng tại Châu Âu, đem lại giải pháp trị mụn hoàn hảo, tác động lên mụn ở mọi giai đoạn nhằm mang lại hiệu quả chăm sóc da cao nhất. Loại bỏ bụi bẩn và bã nhờn trên da. Giảm khả năng xuất hiện của mụn đầu đen và kiểm soát độ bóng nhờn của da. Đem lại làn da sạch và tươi mát.",
-                            "created_at": "2024-10-15T00:40:21.000000Z",
-                            "updated_at": "2024-10-20T15:30:31.000000Z",
+                            "ma_san_pham": 1,
+                            "ten_san_pham": "Sữa Rửa Mặt La Roche-Posay Toleriane Dermo-Cleanser",
+                            "MaSanPham": "001",
+                            "NhaSanXuat": "La Roche-Posay",
+                            "NamSanXuat": 2024,
+                            "slug": "sua-rua-mat-la-roche-posay-toleriane-dermo-cleanser",
+                            "MoTaChinh": [
+                                {
+                                    "ID_MoTaChinh": 1,
+                                    "LoaiMoTa": "Thông Tin Chung",
+                                    "NgayCapNhat": "10/27/2024",
+                                    "chi_tiet": [
+                                        {
+                                            "ID_ChiTietMoTa": 1,
+                                            "TieuDe": "1. Sữa Rửa Mặt La Roche-Posay Toleriane Dermo-Cleanser",
+                                            "NoiDung": "Làm sạch da mà không làm mất đi độ ẩm tự nhiên."
+                                        }
+                                    ]
+                                },
+                                {
+                                    "ID_MoTaChinh": 2,
+                                    "LoaiMoTa": "Thông Số",
+                                    "NgayCapNhat": "10/27/2024",
+                                    "chi_tiet": [
+                                        {
+                                            "ID_ChiTietMoTa": 2,
+                                            "TieuDe": "Thành Phần Chính",
+                                            "NoiDung": "Nước khoáng La Roche-Posay, Glycerin"
+                                        },
+                                        {
+                                            "ID_ChiTietMoTa": 3,
+                                            "TieuDe": "Barcode",
+                                            "NoiDung": "3337875800000"
+                                        },
+                                        {
+                                            "ID_ChiTietMoTa": 4,
+                                            "TieuDe": "Thương Hiệu",
+                                            "NoiDung": "La Roche-Posay"
+                                        },
+                                        {
+                                            "ID_ChiTietMoTa": 5,
+                                            "TieuDe": "Xuất xứ thương hiệu",
+                                            "NoiDung": "Pháp"
+                                        },
+                                        {
+                                            "ID_ChiTietMoTa": 6,
+                                            "TieuDe": "Nơi sản xuất",
+                                            "NoiDung": "France"
+                                        },
+                                        {
+                                            "ID_ChiTietMoTa": 7,
+                                            "TieuDe": "Loại da",
+                                            "NoiDung": "Da nhạy cảm"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "bien_the_san_pham": [
+                                {
+                                    "ID_BienThe": 1,
+                                    "TenBienThe": "Sữa Rửa Mặt 200ml",
+                                    "KhoiLuong": "200ml",
+                                    "MauSac": "Trong",
+                                    "GiaBan": 450000,
+                                    "MoTa": "Làm sạch da mà không làm mất đi độ ẩm tự nhiên."
+                                }
+                            ],
+                            "khuyen_mai_san_pham": [
+                                {
+                                    "ID_KhuyenMai": 1,
+                                    "TenKhuyenMai": "Giảm 10% cho đơn hàng đầu tiên",
+                                    "ThoiGianBatDau": "10/01/2024",
+                                    "ThoiGianKetThuc": "10/31/2024",
+                                    "muc_giam_gia": 10
+                                }
+                            ],
+                            "anh_san_pham": [
+                                {
+                                    "ma_anh_san_pham": 1,
+                                    "url_anh": "https://www.larocheposay.vn/-/media/project/loreal/brand-sites/lrp/apac/vn/products/toleriane/dermo-cleanser/la-roche-posay-productpage-sensitive-allergic-toleriane-dermo-cleanser-200ml-3433422406599-front.png?cx=0&amp;ch=600&amp;cy=0&amp;cw=600&hash=85944FAA5F029742DFFA58FCAA3CEA41",
+                                    "la_anh_chinh": 1
+                                }
+                            ],
                             "nha_cung_cap": {
                                 "ma_nha_cung_cap": 1,
                                 "ten_nha_cung_cap": "Công ty A",
                                 "dia_chi": "Địa chỉ A",
                                 "so_dien_thoai": "0123456789",
-                                "email": "contact@congtyA.com",
-                                "created_at": "2024-10-15T00:40:21.000000Z",
-                                "updated_at": "2024-10-15T00:40:21.000000Z"
-                            },
+                                "email": "contact@congtyA.com"
+                            }
+                        },
+                        {
+                            "ma_san_pham": 2,
+                            "ten_san_pham": "Gel Rửa Mặt La Roche-Posay Effaclar Purifying Foaming Gel",
+                            "MaSanPham": "002",
+                            "NhaSanXuat": "La Roche-Posay",
+                            "NamSanXuat": 2024,
+                            "slug": "gel-rua-mat-la-roche-posay-effaclar-purifying-foaming-gel",
+                            "MoTaChinh": [
+                                {
+                                    "ID_MoTaChinh": 1,
+                                    "LoaiMoTa": "Thông Tin Chung",
+                                    "NgayCapNhat": "10/27/2024",
+                                    "chi_tiet": [
+                                        {
+                                            "ID_ChiTietMoTa": 1,
+                                            "TieuDe": "1. Gel Rửa Mặt La Roche-Posay Effaclar",
+                                            "NoiDung": "Giúp làm sạch sâu và loại bỏ bụi bẩn trên da."
+                                        }
+                                    ]
+                                },
+                                {
+                                    "ID_MoTaChinh": 2,
+                                    "LoaiMoTa": "Thông Số",
+                                    "NgayCapNhat": "10/27/2024",
+                                    "chi_tiet": [
+                                        {
+                                            "ID_ChiTietMoTa": 2,
+                                            "TieuDe": "Thành Phần Chính",
+                                            "NoiDung": "Nước khoáng La Roche-Posay, Salicylic Acid"
+                                        },
+                                        {
+                                            "ID_ChiTietMoTa": 3,
+                                            "TieuDe": "Barcode",
+                                            "NoiDung": "3337875800017"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "bien_the_san_pham": [
+                                {
+                                    "ID_BienThe": 1,
+                                    "TenBienThe": "Gel Rửa Mặt 200ml",
+                                    "KhoiLuong": "200ml",
+                                    "MauSac": "Xanh",
+                                    "GiaBan": 420000,
+                                    "MoTa": "Giúp làm sạch sâu và loại bỏ bụi bẩn trên da."
+                                }
+                            ],
                             "khuyen_mai_san_pham": [
                                 {
-                                    "ma_khuyen_mai": 2,
-                                    "muc_giam_gia": "15.00",
-                                    "ngay_bat_dau": "2024-10-15",
-                                    "ngay_ket_thuc": "2024-10-30",
-                                    "dieu_kien_ap_dung": "Giảm giá cho sinh viên",
-                                    "created_at": "2024-10-15T00:40:21.000000Z",
-                                    "updated_at": "2024-10-15T00:40:21.000000Z"
+                                    "ID_KhuyenMai": 1,
+                                    "TenKhuyenMai": "Giảm 15% cho đơn hàng đầu tiên",
+                                    "ThoiGianBatDau": "10/01/2024",
+                                    "ThoiGianKetThuc": "10/31/2024",
+                                    "muc_giam_gia": 15
                                 }
                             ],
                             "anh_san_pham": [
                                 {
-                                    "ma_anh_san_pham": 4,
-                                    "url_anh": "https://res.cloudinary.com/dmwzseqfw/image/upload/v1729014417/PJ_MYPHAM/SanPham/097bda34-071e-484e-917d-aca8717c0ff8_ab8dmc.webp",
-                                    "la_anh_chinh": 1,
-                                    "created_at": "2024-10-16T01:03:55.000000Z",
-                                    "updated_at": "2024-10-16T01:03:55.000000Z"
-                                },
-                                {
-                                    "ma_anh_san_pham": 5,
-                                    "url_anh": "https://res.cloudinary.com/dmwzseqfw/image/upload/v1729014416/PJ_MYPHAM/SanPham/79dd6a38-4f8e-4d40-8601-07cfd026779c_icvauo.webp",
-                                    "la_anh_chinh": 0,
-                                    "created_at": "2024-10-16T01:03:55.000000Z",
-                                    "updated_at": "2024-10-16T01:03:55.000000Z"
-                                },
-                                {
-                                    "ma_anh_san_pham": 6,
-                                    "url_anh": "https://res.cloudinary.com/dmwzseqfw/image/upload/v1729014416/PJ_MYPHAM/SanPham/548f5e1a-8c87-4326-aca8-7c5b3b6d1d4a_omp1tt.webp",
-                                    "la_anh_chinh": 0,
-                                    "created_at": "2024-10-16T01:03:55.000000Z",
-                                    "updated_at": "2024-10-16T01:03:55.000000Z"
+                                    "ma_anh_san_pham": 1,
+                                    "url_anh": "https://cdn.nhathuoclongchau.com.vn/unsafe/https://cms-prod.s3-sgn09.fptcloud.com/00018855_lrc_posay_effaclar_purifying_foaming_gel_for_oily_sensitive_skin_200ml_m9054420_grm_tao_bot_lam_sa_8178_62af_large_d3cf623a63.jpg",
+                                    "la_anh_chinh": 1
                                 }
-                            ]
+                            ],
+                            "nha_cung_cap": {
+                                "ma_nha_cung_cap": 1,
+                                "ten_nha_cung_cap": "Công ty A",
+                                "dia_chi": "Địa chỉ A",
+                                "so_dien_thoai": "0123456789",
+                                "email": "contact@congtyA.com"
+                            }
+                        },
+                        {
+                            "ma_san_pham": 3,
+                            "ten_san_pham": "Nước Tẩy Trang La Roche-Posay Micellar Water",
+                            "MaSanPham": "003",
+                            "NhaSanXuat": "La Roche-Posay",
+                            "NamSanXuat": 2024,
+                            "slug": "nuoc-tay-trang-la-roche-posay-micellar-water",
+                            "MoTaChinh": [
+                                {
+                                    "ID_MoTaChinh": 1,
+                                    "LoaiMoTa": "Thông Tin Chung",
+                                    "NgayCapNhat": "10/27/2024",
+                                    "chi_tiet": [
+                                        {
+                                            "ID_ChiTietMoTa": 1,
+                                            "TieuDe": "1. Nước Tẩy Trang La Roche-Posay",
+                                            "NoiDung": "Giúp loại bỏ trang điểm và bụi bẩn nhẹ nhàng."
+                                        }
+                                    ]
+                                },
+                                {
+                                    "ID_MoTaChinh": 2,
+                                    "LoaiMoTa": "Thông Số",
+                                    "NgayCapNhat": "10/27/2024",
+                                    "chi_tiet": [
+                                        {
+                                            "ID_ChiTietMoTa": 2,
+                                            "TieuDe": "Thành Phần Chính",
+                                            "NoiDung": "Nước khoáng La Roche-Posay, Glycerin"
+                                        },
+                                        {
+                                            "ID_ChiTietMoTa": 3,
+                                            "TieuDe": "Barcode",
+                                            "NoiDung": "3337875800024"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "bien_the_san_pham": [
+                                {
+                                    "ID_BienThe": 1,
+                                    "TenBienThe": "Nước Tẩy Trang 400ml",
+                                    "KhoiLuong": "400ml",
+                                    "MauSac": "Trong",
+                                    "GiaBan": 480000,
+                                    "MoTa": "Giúp loại bỏ trang điểm và bụi bẩn nhẹ nhàng."
+                                }
+                            ],
+                            "khuyen_mai_san_pham": [
+                                {
+                                    "ID_KhuyenMai": 1,
+                                    "TenKhuyenMai": "Giảm 10% cho đơn hàng đầu tiên",
+                                    "ThoiGianBatDau": "10/01/2024",
+                                    "ThoiGianKetThuc": "10/31/2024",
+                                    "muc_giam_gia": 10
+                                }
+                            ],
+                            "anh_san_pham": [
+                                {
+                                    "ma_anh_san_pham": 1,
+                                    "url_anh": "https://cdn.nhathuoclongchau.com.vn/unsafe/https://cms-prod.s3-sgn09.fptcloud.com/00018487_lrc_posay_effeclar_micellar_water_ultra_400ml_m2862404_nuoc_lam_sach_sau_va_tay_trang_danh_cho_da_84dc6b1376.jpg"
+                                }
+                            ],
+                            "nha_cung_cap": {
+                                "ma_nha_cung_cap": 1,
+                                "ten_nha_cung_cap": "Công ty A",
+                                "dia_chi": "Địa chỉ A",
+                                "so_dien_thoai": "0123456789",
+                                "email": "contact@congtyA.com"
+                            }
+                        },
+                        {
+                            "ma_san_pham": 4,
+                            "ten_san_pham": "Sữa Rửa Mặt Tẩy Tế Bào Chết La Roche-Posay",
+                            "MaSanPham": "004",
+                            "NhaSanXuat": "La Roche-Posay",
+                            "NamSanXuat": 2024,
+                            "slug": "sua-rua-mat-tay-te-bao-chet-la-roche-posay",
+                            "MoTaChinh": [
+                                {
+                                    "ID_MoTaChinh": 1,
+                                    "LoaiMoTa": "Thông Tin Chung",
+                                    "NgayCapNhat": "10/27/2024",
+                                    "chi_tiet": [
+                                        {
+                                            "ID_ChiTietMoTa": 1,
+                                            "TieuDe": "1. Sữa Rửa Mặt Tẩy Tế Bào Chết",
+                                            "NoiDung": "Giúp làm sạch và tẩy tế bào chết trên da."
+                                        }
+                                    ]
+                                },
+                                {
+                                    "ID_MoTaChinh": 2,
+                                    "LoaiMoTa": "Thông Số",
+                                    "NgayCapNhat": "10/27/2024",
+                                    "chi_tiet": [
+                                        {
+                                            "ID_ChiTietMoTa": 2,
+                                            "TieuDe": "Thành Phần Chính",
+                                            "NoiDung": "Nước khoáng La Roche-Posay, Axit Glycolic"
+                                        },
+                                        {
+                                            "ID_ChiTietMoTa": 3,
+                                            "TieuDe": "Barcode",
+                                            "NoiDung": "3337875800031"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "bien_the_san_pham": [
+                                {
+                                    "ID_BienThe": 1,
+                                    "TenBienThe": "Sữa Rửa Mặt 150ml",
+                                    "KhoiLuong": "150ml",
+                                    "MauSac": "Trong",
+                                    "GiaBan": 400000,
+                                    "MoTa": "Giúp làm sạch và tẩy tế bào chết trên da."
+                                }
+                            ],
+                            "khuyen_mai_san_pham": [
+                                {
+                                    "ID_KhuyenMai": 1,
+                                    "TenKhuyenMai": "Giảm 10% cho đơn hàng đầu tiên",
+                                    "ThoiGianBatDau": "10/01/2024",
+                                    "ThoiGianKetThuc": "10/31/2024",
+                                    "muc_giam_gia": 10
+                                }
+                            ],
+                            "anh_san_pham": [
+                                {
+                                    "ma_anh_san_pham": 1,
+                                    "url_anh": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxMQEhUUEhIWEBESFxcTFxcVFhEQFRIVFhYXGBYVFRMYHSggGBslGxgXITEhJyktLi8uFx8zODMtNyguLisBCgoKDg0OGxAQGy8mICUtLTMtLS8tLy0vMC0tKy0vKy0tLy0wLS0tLS0vLy0tLS0vLS0vLS0tLTIrLS0tLy0tLf/AABEIAOEA4QMBEQACEQEDEQH/xAAbAAEAAgMBAQAAAAAAAAAAAAAAAwQFBgcCAf/EAEQQAAIBAgMDBwkECQMFAQAAAAABAgMREiExBAVREyJBYXGRwQYHMlJTgZKhsRfC0fAUM0JUYmOCorKT0vEjJEOD4RX/xAAaAQEAAgMBAAAAAAAAAAAAAAAAAgUBAwQG/8QANBEBAAEDAAcGBAYDAQEAAAAAAAECAxEEEiExQVFSExVhkaHwBSJxgRQjMmKx0TPB4UJT/9oADAMBAAIRAxEAPwDuIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABBt20qlTnUlpTi5vrsr2J0UTXVFMcULlyLdE1zuiMtO+0WH7vL41+BZ91VdXopO/bfRPmfaPT9hP4o/gY7qq6oS78t9Evv2j0vYT+KI7qr6oO/LfTPo+faRS9hPviO6q+qGe+7fTPo+/aRR9jPviO6q+qDvu30z6PK85VF/wDhqd8R3VX1QzPxq3E/pn0PtJo+xn8UR3VX1Qx33b6J9H37SaPsanfAx3VX1Qz31b6Z9D7SaHsanfD8R3Vc6oZ76tdM+j79pND2NTvh+I7qudUHfVrpn0bF5Ob8httN1IRcFGTg07N3STvl2nHpGjzYq1Zl36JpVOk0a9MY24ZU53UAAAAAAAAAAAAAAAAAADG+UtNy2Sulm+Tm+5XN+jTi9TPjDm0ymatHriOU/wAOLTqL82PUPETTyeOURljVl5lUMJRSglWMZbIoFtCGTs5eIVMkMpTTtHVGTVOVGTVOVGTVfOWRjJqSy+7N61qULUqs6acm2otxu7JX+RSfE5zcj6f7ej+D0zFmfr/qHRfNzvGpWp1eVnKo4zVnJuTScdLvsK1bNvAAAAAAAAAAAAAAAAAAHitTxRcXpJNd6sZicTliYzGHDN57PgnpZNKSXC+q9zuvcept160PD37fZ1457WPkTyhCNoxlspTbopqW00E0mnWppppNNOcbpp6o03pmLdU+EunRoibtMTzj+XYP/wAjZ/3aj/pUv9pQ9tc6p85em7G30x5Q8vcuzfu1D/Rpf7R21zqnzk7C10x5Q5D5VRjDbK8YJQjGo0oxSikl0JLJF1o9UzapmVDpVMReqiIYvFlr9fz/AMG7Ln1XzEMmBzGTDMbKrQj2X78yh0yrWvS9JoNGpYpdP82NC2z1J+vUt7oxXi2crrbkAAAAAAAAAAAAAAAAAAAHIvKbZs6vGlXqR/pnLFH/ACj3nodGr2R4xHo8rp9vZVPTVPlM5/3DWJo61ZEopvPP5LwyMcG/G3as7kd9p2d9Lr0/849FjRf/AMdX0l1aNH5lM/uh2k8+9QAcQ8rpW23aXezVWX1ef07y70efyqfooNKj86qfFisdm75310euer6Tb9GjdO14xEkcPkn0AhsVrZcEl3Kx5y5VrVzPi9Tbp1aIp5RDsPkTs/J7FRXTJOfxScl8miCbOAAAAAAAAAAAAAAAAAAABzjyhoX2zaqb0qxhNfAot96RcWKvyaKuUz/Ki0mjN+5RPGIn0w0icbZW62r85YU7q+iv79CyypIpjZGP72b/AHtU5p59l8+FzEynTEp9wW/S9n1a5al1Z449uVzVf/x1fSXVosfm0/WHbLHn3pywZcN8sL/pu1cOVknkul392hdaP/jp+ii0n/LUxDXDRWu81e99c+1ZcDblow+S1y0f0uZhiYe9mjiqRXWiFyvVomrwStUa1UU85bEzzz0zum7qHJ0qcPUhGPdFICwAAAAAAAAAAAAAAAAAAAGgeWccG30ZdFWi4e+MpPxiWuhzmxVHKVNpsaulUVc4w0rflBRqSSSzd9W3efOySfU17+wsLVWaY97lPpNuKa5xHuffvYxlSDdsm3aySvfLO7WeVn1E84RiJngjpYrqSTtiS0airWwu66SFeNzfaz+pelUqp5yqJWvm5rLijlxR4O6Jr459XxVaqWcqiV7K7nqugjinwbNavnLDV6M8U3hbcedJtSbs7elfvv29R0RMYhy1RVmdm5C6crK6a5t+cr3Tescsln9eJnMI4q9HjDZPJ5dtovR368hnazjZuWNzxvUvwRzaZVi1Lq0GjN2J5No3Ls/K7RRh61SCfZiV/lcpl27gAAAAAAAAAAAAAAAAAAAADR/ObHD+i1fUqOL7HZ/dZZ/Dpzr084VHxX5Yor5T7/hru/KEZKzU+dhlzIxl+qjVdnia1Unx9E6bVUxt2ffxw5dIopq35243Y4Z5zCtXrzjU5T9Hwzp05wcVJNYNKd7SUss45dEVbR2hq0zTq62yZjz4tmtVFevqYmImMZ4cP6/hFjnjTUJNrHDk5To4JXm8Upxi82nLNJekk8tCExTq4mY+u3O739myJq1sxE8dmYxv3zt89m98qqWKcVCUpVGnarKE0m5N2Svm+a8+rTIhsxE53cm3E5mMZmecw97U5VGnyLdnOVrxyxTlVTTUrt2msmrakKcRGM+9zZVmcTq+96htG2VXNSqRa5Oq6kVCpSjF5XwVOnClGTv/ABS45baaKcYid8cp9PfJqqrr1vmjdOzEx6++aCVWUV+oxOUY0qjlOCco868YqLSxNWs/4E2mxiOrxgzVH/nPCdsMFvWrKWFzTXMjhu07pK0pZdLld8c3c6LURGcc3Le1pmNblH/fVPuKOTf51OTTqtkQ7NAp2zLd/IGhj22n/Apz7otL5tFas3WwAAAAAAAAAAAAAAAAAAAAan5zKOLYm/UqQl33j947vh1WL2OcSrfitOdHmeUw1DeVeT2eEouScsPo63ccu3PL3nfRRGvMSr7tyrsYqpzmcbmEe1Tlnikr53VS9tHZ2fC+umb4snNumNmI8vfv7NVN6urbmfP3/wA81dV5ZtSlZcJzdlZYcWeVmnrrfqMTRG7HonFyrfEz5o57bJO+OS0XpPO2a7r395Hs45JxeqzveI7XJy9OXe1ldO3Vmk/cRmiMbmym5VM70cKs8+fJ5/sym7N4m+anm3rZLLDnle+JiOTMVVc5QT2mfry0cbucpJ3sniava11npnxGrHI15jj6sbttS+rbayzeJccn2/U2UxhrrnM7WX3PC0H7l3f8lbpk5qiFpodOKMuhea+jevVn6tNR+KV/unG7HSQAAAAAAAAAAAAAAAAAAAAYTy1o49hrrhDF8LUvA6NEnF6n6uXTadbR648HOqEnPYnxjGS7m/At6oxeUdEzVov2lgqc7ZydlGVsrWVtGmspc60rZ3tc21Rnc57VWI+ad0+/rt2+qptUJYs4tPOySdkldu3UtTETGNidUVZ2wrSk7fn5/n6BmM4R47yXTnotX1W49RCY2NsTtfKTveyTbTi1eCxXldWTzb4WV7pGKvFKieSJxxdCzSV+alid30PJWv3LIxuSjaozWaXZ8yUo0xLY93RtBdbb8PAp9JnNxeaPGLcOn+a2jalWn604x+GN/vHO3t3AAAAAAAAAAAAAAAAAAAABU3vSx0KsfWpzX9rJ2pxXE+KF2M0THg5R5MvFSnB8WvdJW8GXmkbKol5zQttuqmfeWtVZNN5u/o+5K1u7I6sQr9aqJ9FWc3pd24Xy1v8AVIjMQ2U1TjCKb95HDbFSNSto81n7+JHCUV8kcm7W6L39/ETDMVTuRzm7W6Pd2kccU4qnGENNXkiNTdbjMtm2VWhHsv3u5SXpzXK9tRiiHW/N1Sw7Gn685y+eH7prbGzgAAAAAAAAAAAAAAAAAAAA81I3TXFWEDjfk+8FatDrf9smvE9Bf20Uy8xo3y3a6feyWK3jsU3VmoQlJY2lhjKWb5yjktbZ26jbTcp1YzPBzXLNc3J1Ymdv/WPlsdT2c+j9mX7WG3R04o/EuImunnBFm50z5IlsVR6U5vTSMn6TtHo6XdLiYmumOMJxauT/AOZ8kc9lqJNunO0W03hlaLSu03bJ2zsY16eaXZV8p8kc9kqLWnNZX9GWnHQj2lPNPsa+U+SlVi1qrDKURMbzZFzm+Brr3N9qNrZqcbJLgkvkUdU5mZX1MYh2byPpYNioLjDF8TcvEwyzIAAAAAAAAAAAAAAAAAAAAAHG5x5PeNWPQ5Tj4+Bfx82jxLzVXyaZVH1eN7bVKnWw3jGE05NyhGprHDJZrRqEVbqRGiiKqM8Y8ce97Ny7Nu7q5iInnGeGJ88Qr1t61r3W1581LmxTs8Lk+C0WWrsyHY0dDd+Ir4XeXCPurQ3jNv8AXw5mBxbp0VZwvZRv0p5X63rldVajH6Z254yUXqpn9cbMY2QghtTzXLwtOTnLFCDV5RcZXTfD5NGKqP2z5p03P3xt27vtzeK28Kjee0RfOWdoK9lHN2el4RuR7OnplPtat2vHv7+DB7bts6uFStzFZWVsrJZ8ckjfRbpozhy13armNbg8bBG9+vLw8SF2cQ3aPGamyyKReO5bqpYKFKPq04R7opAWgAAAAAAAAAAAAAAAAAAAAAOQeVcOT3k+DlF8PS1+pe6L82jvN6b8umRP0UvKDdsHKGeC6lnKU2m42aV2+tizOInZlnSqc1RtxslhK27Kdr8rTfTrP39HG5s1sz+mWiLeI2XIQS3VD21L4prXPgR1v2y2xb/fCJ7sj0Vaef8AFJOz45GNb9ss9nPXCGpu6Of/AFafxzXgYmr9spRbnqj39lCrTs3nezeabafZ1EscUc4nC7uuOce1fW/gc+kTiiXbokZqhsezU8c4x9aUY97SKhbu7pAfQAAAAAAAAAAAAAAAAAAAAAOUecuGDbIy4xi+6xefDpzamHnfi0at6KlfykoudJOKbtK+SvZNP/4SsTEVYlHTKZqtxMRxa9CjXpZqnJXcbXpt3byja66bte83Vzbr3z6uW1F63timeHDyeKlWu1fA7SSz5PJx51rO2d7vtNepa5+rfF2/MZxv8ENXaq+d4Wusf6tej62mUesh2dvn6tvbXuMeO5j9rhNtuUWm7LOLjoktO4nTNMRiJa6qa5nNUeijVVtTJEYZLdUOdH8/ss4tLn5JWehxtbV5N0se10F/Mg+538CrWbtYAAAAAAAAAAAAAAAAAAAAAADmfnYp2qUpcY2+bLn4XOyqFF8Zp20yp1NunHZXKFs4wbuk09LrMn2VNV3E+KHbVU2NanlDFUdslGKttEI4sOWCDwvDCK6ejBHuuSrtxMzmifP6/wBtdq7VTTExciM42YjZsiP9IXvCpFuS2hJyw5YINJQi7LDe0Vm00snfMhNqmYxqNlN+qJz2m/HCP7U57ZPGny0L8moYrRslFqytfVarLoTtfMx2cav6Z3p9rOt+uN2/3KrX2+UVzZwaunhSWt5STyeebb1yy454i1TM7Ylmq/VTGyY+nmxG27RKo05Wuko5cPyzbTRFEYhoruzcnMsjuxc73P6xRxaZPyrPQobj5C08W3UerHLuhLxK5YOvAAAAAAAAAAAAAAAAAAAAAAANA87NK8KMuuS+n4lr8Ln5qoU/xiPy6Z8Wr7FssZ7LZJ3wzXpT15yWVzqriKbrjtVTXY8cSw0t0wTyrU3r+09Fp1ZtfQ26/wC2WibUf/SEVTdcU7crSd2l6cmlrnppda9aMa0Y/TLE2pica9Pv7KtTdK9pTz/mSITVHTPv7t0W566ff2VK+wpXeOMuybvqs7GImJndLM0zTGYmJ8lR0lda6rpfQZmlGmuWa3atexfNv8Cu0ydy50PdLePNvTvtl/VpzfzivE4Hc6mAAAAAAAAAAAAAAAAAAAAAAA1DzmbPj2aFrK1RK7ySv0vqyO/4fVq3J+iu+J0a1nHjDVdx7HONNxauot9mmaz6U7r3HdeuUzVEwr9Gs100zTLFy5Zt82Dtj1gm1gtdtWvnijxvdGyYtxG+eHHm0a1+Z2RHHhy9eMPFejXu8UIXi435qzcsSWaWmT1yyIxNrGyZ2+PJPF+ZmJiNmOHPP9cVCLnNLm03i0uop2u1e3Bydr8bGaoopnfPv/jFE3K4zinb/e/z9WM2qq3k4x4XSXQ+hrsJRREbYmUKrlUxiYjyU1HNGZRhmdijZP3L5X8Sp02fmiF9oP6Jlvvmup3rVZcKaXxSv904na6QAAAAAAAAAAAAAAAAAAAAAAAwPltQx7JO2qs8teleJ06JVi7Dl02nNmrDnG4Npm5TU6j0XpSfZ0l1ft0xEYh57Q79c1TFVXnKrvJzhUkoSdm8WWau0rvtuvkn0EqKaaqYzDTfuXKLkxTOzex8q073u7pp6KywpqOWmSby6yfZ04w1ReuZznl6bkMtpmunLhhjazVmrWtbq0Izapng206Tcjj6R7+yrLaZpWUrLgrJLsXQRm1TO2YbaNIuRGIl4oVZX1fAxNunknF+vdlk6UbJdd34eBS6XObi/wBDjFqHRvNbQtCtPjKMPhTf3jmdTeQAAAAAAAAAAAAAAAAAAAAAAEW0+iwMdHYKUvSpwl2wg/qicXK43TPmjNqirfEeSntO6KN/1FP4IfgS7e71T5tc6LZn/wAR5QoVtzUPY0/hRL8Td6pRnQ7E76I8lOpuah7Gn8I/E3uqWPwej9EeSB7noexp/CmPxF3qln8JY6I8nujuylHSjTX9EPwITeuTvqnzTpsWqd1MeUNa8p1atZeqvqzW2t582bX6LKyz5WV+vmw8LAbaAAAAAAAAAAAAAAAAAAAAAAAjr6AQ0UGXirHMCrVgBUq0wKs4ARxgBpHlQ/8AuJdSj9Lhhvfm0jbZJddWT/tgvADbAAAAAAAAAAAAAAAAAAAAAAAEdbQCKiGXysBXmBXnECtUhmBFhA595Su+01P6f8Ihh0LzdRtsUeuc387eAGzgAAAAAAAAAAAAAAAAAAAAAAPM43VgIFdaoMvNR3AjaAjcUBBWpgY7bdqhRi5VJKK68r9i6Qw5rvDaeVqTnpiba7Oj5AdW8haeHYaXXil3zk18gM+AAAAAAAAAAAAAAAAAAAAAAAAfJK+TzTA1LeXkpXUnLZdrqU08+TnOo4rqjJPTqaYGKq7p3vHSq59lSD/zsBWnse+P5nunR8GBXqbp3rPVVn/7Yr7wEMPIvbZu8qaTfTKpB/RtgZbd3m7m2nXqxjHpjTvJvqxNK3cwOgbPRjTjGEFhjFKKS6ElZICQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA//Z",
+                                    "la_anh_chinh": 1
+                                }
+                            ],
+                            "nha_cung_cap": {
+                                "ma_nha_cung_cap": 1,
+                                "ten_nha_cung_cap": "Công ty A",
+                                "dia_chi": "Địa chỉ A",
+                                "so_dien_thoai": "0123456789",
+                                "email": "contact@congtyA.com"
+                            }
                         }
                     ]
                 },
@@ -354,62 +944,7 @@
                     "mo_ta": "Sản phẩm mặt nạ được sử dụng để cung cấp dưỡng chất, cấp ẩm sâu, hoặc giải quyết các vấn đề cụ thể của da như mụn, thâm nám, hay nếp nhăn. Mặt nạ có nhiều dạng như mặt nạ giấy, mặt nạ đất sét, mặt nạ gel, hoặc mặt nạ ngủ. Chúng giúp thư giãn và phục hồi làn da sau một ngày dài, mang lại làn da sáng khỏe và tươi mới.",
                     "created_at": "2024-10-20T21:43:14.000000Z",
                     "updated_at": "2024-10-20T21:43:14.000000Z",
-                    "san_pham": [
-                        {
-                            "ma_san_pham": 5,
-                            "ma_loai_san_pham": 6,
-                            "ten_san_pham": "Combo 5 Mặt Nạ Giấy Dermatory Retinal Nâng Cơ, Dưỡng Da Săn Chắc (mix)",
-                            "mau_sac": "Đỏ",
-                            "tinh_trang": "Còn Hàng",
-                            "gia_ban": "538000.00",
-                            "mo_ta": "Mặt nạ hàng đầu thế giới",
-                            "created_at": "2024-10-15T00:40:21.000000Z",
-                            "updated_at": "2024-10-20T15:42:59.000000Z",
-                            "nha_cung_cap": {
-                                "ma_nha_cung_cap": 1,
-                                "ten_nha_cung_cap": "Công ty A",
-                                "dia_chi": "Địa chỉ A",
-                                "so_dien_thoai": "0123456789",
-                                "email": "contact@congtyA.com",
-                                "created_at": "2024-10-15T00:40:21.000000Z",
-                                "updated_at": "2024-10-15T00:40:21.000000Z"
-                            },
-                            "khuyen_mai_san_pham": [
-                                {
-                                    "ma_khuyen_mai": 5,
-                                    "muc_giam_gia": "25.00",
-                                    "ngay_bat_dau": "2024-10-15",
-                                    "ngay_ket_thuc": "2024-11-14",
-                                    "dieu_kien_ap_dung": "Giảm giá vào cuối tuần",
-                                    "created_at": "2024-10-15T00:40:21.000000Z",
-                                    "updated_at": "2024-10-15T00:40:21.000000Z"
-                                }
-                            ],
-                            "anh_san_pham": [
-                                {
-                                    "ma_anh_san_pham": 13,
-                                    "url_anh": "https://res.cloudinary.com/dmwzseqfw/image/upload/v1729015365/PJ_MYPHAM/SanPham/b558b9c3-ffb5-4ebb-b8ad-d489e9bd60e4_dsrdgx.webp",
-                                    "la_anh_chinh": 1,
-                                    "created_at": "2024-10-16T01:03:55.000000Z",
-                                    "updated_at": "2024-10-16T01:03:55.000000Z"
-                                },
-                                {
-                                    "ma_anh_san_pham": 14,
-                                    "url_anh": "https://res.cloudinary.com/dmwzseqfw/image/upload/v1729015364/PJ_MYPHAM/SanPham/e84be464-2bd6-459d-824b-8b1f6a085c6f_y1nqi5.webp",
-                                    "la_anh_chinh": 0,
-                                    "created_at": "2024-10-16T01:03:55.000000Z",
-                                    "updated_at": "2024-10-16T01:03:55.000000Z"
-                                },
-                                {
-                                    "ma_anh_san_pham": 15,
-                                    "url_anh": "https://res.cloudinary.com/dmwzseqfw/image/upload/v1729015364/PJ_MYPHAM/SanPham/d7c5b09d-1436-42a1-be71-5215f9e75ba4_x8ecqn.webp",
-                                    "la_anh_chinh": 0,
-                                    "created_at": "2024-10-16T01:03:55.000000Z",
-                                    "updated_at": "2024-10-16T01:03:55.000000Z"
-                                }
-                            ]
-                        }
-                    ]
+                    "san_pham": []
                 }
             ]
         },

@@ -6,6 +6,8 @@ function Header({ OnLoaiSPClick }) {
     const navigate = useNavigate();
     const [dongsp, setdongsp] = useState([]);
     const [sanpham, setsanpham] = useState([]);
+    const [isFixed, setIsFixed] = useState(false);
+
     useEffect(() => {
         const fetchData = async () => {
             const reponse = await fetchAllProducts();
@@ -14,13 +16,26 @@ function Header({ OnLoaiSPClick }) {
             setdongsp(dongsp);
         }
         fetchData();
-    }, [])
+        const handleScroll = () => {
+            if (window.scrollY > 0) {
+                setIsFixed(true);
+            } else {
+                setIsFixed(false);
+            }
+        };
+
+        window.addEventListener('scroll', handleScroll);
+        return () => {
+            window.removeEventListener('scroll', handleScroll);
+        };
+    }, []);
 
     const handleLoaiSanPhamClick = (loaisp) => {
         console.log("loaisp", loaisp);
-        navigate(`/product`);
-        OnLoaiSPClick(loaisp)
+        navigate(`/danhmuc/${loaisp.ma_loai_san_pham}`); // Assuming loaisp has a property `ma_loai_san_pham`
+        OnLoaiSPClick(loaisp);
     }
+
 
     return (
         <div className="header scrolling" id="myHeader">
@@ -170,23 +185,29 @@ function Header({ OnLoaiSPClick }) {
                         <a href="#" className="header__nav-link">
                             Sản Phẩm
                         </a>
-                        <div className="sub-nav-wrap grid wide">
-                            <ul className="sub-nav">
+                        <div className="sub-nav-wrap container-fluid">
+                            <div className="row">
                                 {dongsp.length > 0 && dongsp.map((row, index) => (
-                                    <li key={index} className="sub-nav__item">
-                                        <a href="#" className="sub-nav__link heading">
-                                            {row.ten_dong_san_pham}
-                                        </a>
-                                        {row.loai_san_pham.length > 0 && row.loai_san_pham.map((loai, loaiIndex) => (
-                                            <a key={loaiIndex} onClick={() => handleLoaiSanPhamClick(loai)} className="sub-nav__link">
-                                                {loai.ten_loai_san_pham}
+                                    <div key={index} className="col-lg-2">
+                                        <div className="sub-nav__item">
+                                            <a href={`/danhmuc/${row.ma_dong_san_pham}`} className="sub-nav__link heading d-block mb-2">
+                                                {row.ten_dong_san_pham}
                                             </a>
-                                        ))}
-                                    </li>
+                                            <ul className="list-unstyled">
+                                                {row.loai_san_pham.length > 0 && row.loai_san_pham.map((loai, loaiIndex) => (
+                                                    <li key={loaiIndex} className="mb-1">
+                                                        <a href={`/loaisanpham/${loai.ma_loai_san_pham}`} className="sub-nav__link d-block">
+                                                            {loai.ten_loai_san_pham}
+                                                        </a>
+                                                    </li>
+                                                ))}
+                                            </ul>
+                                        </div>
+                                    </div>
                                 ))}
-                            </ul>
-
+                            </div>
                         </div>
+
                     </li>
                     <li className="header__nav-item">
                         <a href="news.html" className="header__nav-link">

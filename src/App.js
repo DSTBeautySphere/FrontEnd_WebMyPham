@@ -13,9 +13,7 @@ function App() {
           {/* Render các route công khai */}
           {publicRoutes.map((route, index) => (
             <Route key={index} path={route.path} element={
-              <Layout>
-                <route.component />
-              </Layout>
+              <route.component />
             } />
           ))}
 

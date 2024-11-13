@@ -17,11 +17,11 @@ const Layout = ({ children, showFooter = true }) => { // Thêm showFooter
     return (
 
         <div className="app header-fixed sidebar-fixed aside-menu-fixed sidebar-lg-show">
-            <Header OnLoaiSPClick={handelClickLoaiSP} />
+            <Header />
             <div className="app-body">
                 {/* <Sidebar /> */}
-                <main style={{ marginTop: '0px' }} className="main">
-                    {React.cloneElement(children, { loaisp })} {/* Truyền loaisp qua props */}
+                <main style={{ marginTop: '30px' }} className="main">
+                    {children} {/* Render nội dung con */}
                 </main>
             </div>
             {showFooter && <Footer />} {/* Chỉ hiển thị footer nếu showFooter là true */}

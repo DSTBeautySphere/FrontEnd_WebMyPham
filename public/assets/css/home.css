@@ -1,11 +1,11 @@
 /* =====Css lại header cho trang home====== */
 
 .header.scrolling {
-    background-color: transparent;
+    background-color: #d8c6eb;
 }
 
 .header.scrolling .header__nav {
-    background-color: transparent;
+    background-color: rgb(53, 51, 51);
     box-shadow: none;
 }
 
@@ -101,7 +101,7 @@
 }
 
 .main__slice .caption p {
-    font-size: 1.3rem;
+    font-size: 1.8rem;
     margin: 15px 0 30px;
     color: rgba(255, 255, 255, 0.7);
     font-weight: 200;
@@ -216,7 +216,7 @@
 }
 
 .sale-heading {
-    font-size: 2rem;
+    font-size: 4rem;
     text-transform: uppercase;
     margin-bottom: 20px;
     position: relative;
@@ -287,6 +287,8 @@
 
 .news {
     display: flex;
+    text-decoration: none;
+
 }
 
 .news__img {
@@ -300,10 +302,13 @@
 .news__body {
     flex: 3;
     padding-left: 12px;
+    text-decoration: none;
+
 }
 
 .news__body-title {
-    font-size: 1.8rem;
+    text-decoration: none;
+    font-size: 1.2rem;
     font-weight: 500;
     color: var(--black-cl-2);
     margin-bottom: 8px;
@@ -317,22 +322,22 @@
 }
 
 .new__body-date {
-    font-size: 1.2rem;
+    font-size: 1rem;
     color: var(--black-cl-1);
     margin-bottom: 8px;
 }
 
 .news__description {
-    font-size: 1.6rem;
+    font-size: 1rem;
     color: var(--black-cl-1);
     text-align: justify;
-    line-height: 2rem;
+    line-height: 1rem;
     height: calc(20px * 9);
     overflow: hidden;
     display: block;
     display: -webkit-box;
     -webkit-box-orient: vertical;
-    -webkit-line-clamp: 9;
+    text-decoration: none;
 }
 
 
@@ -349,17 +354,17 @@
     width: 60px;
 }
 
-.policy__info {}
+.policy__info { padding: 10px;}
 
 .policy__title {
-    font-size: 1.8rem;
+    font-size: 1rem;
     text-transform: uppercase;
     color: var(--white-cl-1);
     margin-bottom: 12px;
 }
 
 .policy__description {
-    font-size: 1.4rem;
+    font-size: 1.2rem;
     color: var(--white-cl-2);
 }
 

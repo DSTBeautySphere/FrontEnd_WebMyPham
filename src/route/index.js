@@ -1,8 +1,11 @@
 import Home from "../Page/Home/Home";
-import Product from "../Page/Product/Product.js";
+import Product from "../Page/Product/Product";
+import PRoductDetail from "../Page/Product/Product.Detail";
 const publicRoutes = [
     { path: '/', component: Home },
-    { path: '/product', component: Product }
+    { path: '/danhmuc/:id', component: Product },     // Route cho sản phẩm cụ thể với id
+    { path: '/loaisanpham/:id', component: Product },     // Route cho sản phẩm cụ thể với id
+    { path: '/product/:id', component: PRoductDetail },     // Route cho sản phẩm cụ thể với id
 
 ];
 

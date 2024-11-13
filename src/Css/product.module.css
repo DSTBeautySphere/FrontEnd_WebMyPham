@@ -1,0 +1,11 @@
+.mainBanner
+{
+   
+    margin-bottom: 50px;
+}
+.mainBanner .col-4 img {
+    border-radius: 25px;
+}
+.mainBanner .col-4 {
+    border-radius: 25px !important;
+}

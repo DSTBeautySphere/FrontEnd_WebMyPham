@@ -1,0 +1,129 @@
+.box {
+    padding: 10px 15px;
+    background-color: #f5f5f5; /* Màu nền */
+    border: 1px solid #ddd; /* Viền */
+    text-align: center;
+    font-size: 14px; /* Kích thước chữ */
+    display: inline-block;
+    min-width: 60px; /* Chiều rộng tối thiểu */
+}
+.box:hover {
+    background-color: #e0e0e0; /* Màu nền khi hover */
+    border-color: #bbb; /* Màu viền khi hover */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Bóng đổ khi hover */
+    transform: translateY(-3px); /* Nhấc nhẹ lên khi hover */
+}
+
+.khuyenmaicontainer {
+    border: 2px solid red; /* Đường viền màu đỏ */
+    background-color: rgba(255, 0, 0, 0.1); /* Màu nền nhạt để làm nổi bật */
+    padding: 20px; /* Khoảng cách bên trong khung */
+    border-radius: 5px; /* Bo tròn góc */
+    margin: 20px 0; /* Khoảng cách bên ngoài khung */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Đổ bóng cho khung */
+}
+
+.khuyenmaiitem {
+    text-align: center; /* Canh giữa nội dung */
+}
+
+.khuyenmaiitem h4 {
+    color: red; /* Màu chữ tiêu đề */
+    margin-bottom: 10px; /* Khoảng cách dưới tiêu đề */
+}
+
+.khuyenmaiitem p {
+    color: #000000; /* Màu chữ cho các đoạn văn bản */
+    margin: 5px 0; /* Khoảng cách trên và dưới cho các đoạn văn bản */
+    font-size: 20px;
+    
+}
+
+
+
+.nowfreecontainer {
+    border: 1px solid #ccc;
+    padding: 16px;
+    border-radius: 8px;
+    font-family: Arial, sans-serif;
+    margin: auto;
+}
+
+.nowfreeheader {
+    display: flex;
+    align-items: center;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.nowfreelogo {
+    color: #FF4A00;
+    margin-right: 8px;
+}
+
+.nowfreetext {
+    color: #333;
+}
+
+.nowfreedescription {
+    font-size: 0.95em;
+    margin: 8px 0;
+    color: #555;
+}
+
+.highlight {
+    color: #FF4A00;
+    font-weight: bold;
+}
+
+.nowfreelink {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.nowfreeactions {
+    display: flex;
+    gap: 10px;
+    margin-top: 16px;
+    align-items: center;
+}
+
+.availability {
+    display: flex;
+    align-items: center;
+    background-color: #e0f7e9;
+    color: #2d7d3b;
+    padding: 8px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.availability i {
+    margin-right: 6px;
+}
+
+.cartbutton, .buynowbutton {
+    padding: 10px 16px;
+    border: none;
+    border-radius: 5px;
+    font-size: 0.9em;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.cartbutton {
+    background-color: #3b7d3b;
+    color: white;
+}
+
+.buynowbutton {
+    background-color: #ff4a00;
+    color: white;
+}
+
+.promotext {
+    font-size: 0.8em;
+    margin-left: 4px;
+    font-weight: normal;
+}

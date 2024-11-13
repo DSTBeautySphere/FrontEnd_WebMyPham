@@ -1,127 +1,165 @@
 import React, { useEffect, useState } from 'react';
-import { useParams } from 'react-router-dom';
+import { useParams, Link } from 'react-router-dom'; // Lấy id từ URL
 import { fetchAllProducts } from '../../Component/Service/Product_service';
-
-function Product({ loaisp }) {
-    console.log(":::>>>", loaisp);
-
+import Header2 from '../../Component/Layout/Header/Header2';
+import Sidebar from '../../Component/Layout/Sidebar/Sidebar';
+import SortBar from '../../Component/Layout/Sidebar/Sortbar';
+function Product() {
+    const { id } = useParams(); // Lấy id từ URL
     const [products, setProducts] = useState([]);
+    const [loading, setLoading] = useState(true);
+    const [error, setError] = useState(null);
+    const [activeSort, setActiveSort] = useState('');
+
+    console.log("id", id);
 
     useEffect(() => {
         const fetchData = async () => {
+            setLoading(true);
+            setError(null); // Reset error state
             try {
                 const response = await fetchAllProducts();
+                let filteredProducts = [];
 
-                // Kiểm tra cấu trúc của response
-                const datasp = response?.dong_san_pham?.[0]?.loai_san_pham?.[0]?.san_pham;
+                // Kiểm tra xem id là loại sản phẩm hay dòng sản phẩm
+                if (window.location.pathname.startsWith('/danhmuc')) {
+                    // Lọc theo dòng sản phẩm
+                    filteredProducts = response?.dong_san_pham
+                        ?.filter(dongsp => dongsp.ma_dong_san_pham == id)
+                        .flatMap(dongsp => dongsp.loai_san_pham.flatMap(loai => loai.san_pham));
+                } else if (window.location.pathname.startsWith('/loaisanpham')) {
+                    // Lọc theo loại sản phẩm
+                    filteredProducts = response?.dong_san_pham
+                        ?.flatMap(dongsp =>
+                            dongsp.loai_san_pham
+                                .filter(loai => loai.ma_loai_san_pham == id)
+                                .flatMap(loai => loai.san_pham)
+                        );
+                }
 
-                if (Array.isArray(datasp)) {
-                    console.log("datasp", datasp);
-                    console.log("loaisp", loaisp);
-
-                    if (loaisp.length === 0) { // Kiểm tra nếu loaisp là null hoặc undefined
-                        setProducts(datasp);
-                    } else if (loaisp && loaisp.san_pham) {
-                        setProducts(loaisp.san_pham); // Lưu sản phẩm vào state
-                    }
+                console.log(">>>>>>>", filteredProducts);
+                if (filteredProducts && filteredProducts.length > 0) {
+                    setProducts(filteredProducts);
                 } else {
-                    console.error("Dữ liệu không có trong response hoặc không phải là mảng.");
+                    console.error("Không tìm thấy sản phẩm cho loại này.");
+                    setProducts([]); // Đảm bảo setProducts là mảng rỗng
                 }
             } catch (error) {
-                console.error("Lỗi khi fetching dữ liệu:", error);
+                console.error("Lỗi khi fetch dữ liệu:", error);
+                setError("Có lỗi xảy ra khi tải sản phẩm. Vui lòng thử lại."); // Set error message
+            } finally {
+                setLoading(false);
             }
         };
 
-        console.log("loaisp", loaisp); // Kiểm tra giá trị của loaisp
         fetchData();
-    }, [loaisp]);
+    }, [id]);
 
-    useEffect(() => {
-        console.log("products updated:", products); // Kiểm tra sản phẩm sau khi cập nhật
-    }, [products]);
+    const sortPriceDescending = () => {
+        const sorted = [...products].sort((a, b) => {
+            const discountA = a.khuyen_mai_san_pham?.[0]?.muc_giam_gia || 0;
+            const discountB = b.khuyen_mai_san_pham?.[0]?.muc_giam_gia || 0;
+
+            const priceA = a.bien_the_san_pham[0]?.GiaBan * (1 - discountA / 100);
+            const priceB = b.bien_the_san_pham[0]?.GiaBan * (1 - discountB / 100);
+
+            return priceB - priceA;
+        });
+        setProducts(sorted);
+        setActiveSort('Giá cao đến thấp');
+    };
+
+    const sortPriceAscending = () => {
+        const sorted = [...products].sort((a, b) => {
+            const discountA = a.khuyen_mai_san_pham?.[0]?.muc_giam_gia || 0;
+            const discountB = b.khuyen_mai_san_pham?.[0]?.muc_giam_gia || 0;
+
+            const priceA = a.bien_the_san_pham[0]?.GiaBan * (1 - discountA / 100);
+            const priceB = b.bien_the_san_pham[0]?.GiaBan * (1 - discountB / 100);
+
+            return priceA - priceB; // Sắp xếp từ thấp đến cao
+        });
+        setProducts(sorted);
+        setActiveSort('Giá thấp đến cao');
+    };
+
 
     return (
-        <div className="main">
-            <div style={{ marginTop: '150px' }} className="grid wide">
-                <div className="main__taskbar">
-                    <div className="main__breadcrumb">
-                        <div className="breadcrumb__item">
-                            <a href="#" className="breadcrumb__link">
-                                Trang chủ
-                            </a>
-                        </div>
-                        <div className="breadcrumb__item">
-                            <a href="#" className="breadcrumb__link">
-                                Cửa hàng
-                            </a>
-                        </div>
-                        <div className="breadcrumb__item">
-                            <a href="#" className="breadcrumb__link">
-                                Hãng DHC
-                            </a>
-                        </div>
+        <div>
+            <Header2 />
+            <div className='container-fluid'>
+                <div className='row'>
+                    <div className='col-3'>
+                        <Sidebar></Sidebar>
                     </div>
-                    <div className="main__sort">
-                        <h3 className="sort__title">Hiển thị kết quả theo</h3>
-                        <select className="sort__select">
-                            {" "}
-                            name="" id=""&gt;
-                            <option value={1}>Thứ tự mặc định</option>
-                            <option value={2}>Mức độ phổ biến</option>
-                            <option value={3}>Điểm đánh giá</option>
-                            <option value={4}>Mới cập nhật</option>
-                            <option value={5}>Giá : Cao đến thấp</option>
-                            <option value={6}>Giá Thấp đến cao</option>
-                        </select>
-                    </div>
-                </div>
-                <div className="productList">
-                    <div className="listProduct">
-                        <div className="row">
-                            {products.map(product => (
-                                <div className="col l-2 m-4 s-6" key={product.ma_san_pham}>
-                                    <div className="product">
-                                        <div
-                                            className="product__avt"
-                                            style={{
-                                                backgroundImage: `url(${product.anh_san_pham[0]?.url_anh})`, // Ảnh chính
-                                                backgroundSize: 'cover', // Đảm bảo ảnh được hiển thị đầy đủ
-                                                height: '200px', // Đặt chiều cao cho ảnh
-                                            }}
-                                        ></div>
-                                        <div className="product__info">
-                                            <h3 className="product__name">{product.ten_san_pham}</h3>
-                                            <div className="product__price">
-                                                <div className="price__old">
-                                                    {/* Nếu có giá cũ, bạn có thể hiển thị ở đây */}
-                                                    <span className="price__unit">đ</span>
-                                                </div>
-                                                <div className="price__new">
-                                                    {product.gia_ban} <span className="price__unit">đ</span>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div className="product__sale">
-                                            <span className="product__sale-percent">Giảm giá</span>
-                                            <span className="product__sale-text">{product.tinh_trang}</span>
-                                        </div>
-                                        <a href="#" className="viewDetail">
-                                            Xem chi tiết
-                                        </a>
-                                        <a href="#" className="addToCart">
-                                            Thêm vào giỏ
-                                        </a>
-                                    </div>
-                                </div>
-                            ))}
-                        </div>
-                    </div>
-                </div>
+                    <div className='col-9'>
+                        <SortBar
+                            activeSort={activeSort}
+                            setActiveSort={setActiveSort}
+                            sortPriceDescending={sortPriceDescending}
+                            sortPriceAscending={sortPriceAscending} // Thêm hàm này vào props
+                        />                        <div className="container mt-4">
+                            {loading ? (
+                                <div className="alert alert-info">Đang tải sản phẩm...</div>
+                            ) : error ? (
+                                <div className="alert alert-danger">{error}</div>
+                            ) : products.length === 0 ? (
+                                <div className="alert alert-warning">Không có sản phẩm nào trong loại này.</div>
+                            ) : (
+                                <div className="row">
+                                    {products.map(product => (
+                                        <div className="col-md-3 mb-4" key={product.ma_san_pham}>
+                                            <Link to={`/product/${product.slug}`} style={{ textDecoration: 'none' }}>
+                                                <div className="card h-100 shadow-sm">
+                                                    <div
+                                                        className="card-img-top"
+                                                        style={{
+                                                            backgroundImage: `url(${product.anh_san_pham[0]?.url_anh})`,
+                                                            backgroundSize: 'cover',
+                                                            backgroundPosition: 'center',
+                                                            height: '250px',
+                                                            borderRadius: '10px 10px 0 0',
+                                                        }}
+                                                        aria-label={product.ten_san_pham}
+                                                    ></div>
+                                                    <div className="card-body d-flex flex-column">
+                                                        <h5 className="card-title font-weight-bold text-center">
+                                                            {product.ten_san_pham}
+                                                        </h5>
+                                                        <div className="card-text text-center mb-3">
+                                                            <div className="text-muted price__old" style={{ textDecoration: 'line-through' }}>
+                                                                {
+                                                                    product.bien_the_san_pham?.length > 0 &&
+                                                                    (
+                                                                        <span> {product.bien_the_san_pham[0]?.GiaBan}đ   </span>
+                                                                    )
+                                                                }
+                                                            </div>
+                                                            <div className="price__new text-danger font-weight-bold" style={{ fontSize: '1.5rem' }}>
+                                                                {product.khuyen_mai_san_pham?.length > 0 && (
+                                                                    <div className="price__new text-danger font-weight-bold" style={{ fontSize: '1.5rem' }}>
+                                                                        {/* Calculate and show the discounted price */}
+                                                                        {Math.round(product.bien_the_san_pham[0]?.GiaBan * (1 - product.khuyen_mai_san_pham[0]?.muc_giam_gia / 100)).toLocaleString()} VNĐ
+                                                                    </div>
+                                                                )}
+                                                            </div>
 
+
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </Link>
+                                        </div>
+                                    ))}
+                                </div>
+                            )}
+                        </div>
+                    </div>
+
+                </div>
 
             </div>
         </div>
-
     );
 }
 
